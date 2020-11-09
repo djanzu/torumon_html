@@ -1,0 +1,376 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.top-page {
+  position: relative;
+  padding-top: 103px;
+  padding-bottom: 0;
+}
+
+.top-page > .section-mv {
+  position: relative;
+  background-image: url(../../../assets/img/top/back-mv.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 251px;
+}
+
+.top-page > .section-mv > .container {
+  max-width: 891px;
+  margin: 0 auto;
+}
+
+.top-page > .section-mv > .container > .logo {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  width: 385px;
+  margin-right: 40px;
+  margin-top: 4px;
+}
+
+.top-page > .section-mv > .container > .slide {
+  position: relative;
+  border: 10px solid #000000;
+  border-radius: 10px;
+  width: 380px;
+  height: 200px;
+  margin-top: 23px;
+}
+
+.top-page > .section-mv > .container > .slide > .prev-arrow,
+.top-page > .section-mv > .container > .slide > .next-arrow {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 99;
+}
+
+.top-page > .section-mv > .container > .slide > .prev-arrow {
+  left: -34px;
+}
+
+.top-page > .section-mv > .container > .slide > .next-arrow {
+  right: -34px;
+}
+
+.top-page > .section-mv > .container > .slide > .slick-list > .slick-track > .img {
+  height: 180px;
+}
+
+.top-page > .section-mv > .container > .slide:before, .top-page > .section-mv > .container > .slide:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -33px;
+  background-color: #000000;
+  width: 18px;
+  height: 23px;
+}
+
+.top-page > .section-mv > .container > .slide:before {
+  left: 21px;
+}
+
+.top-page > .section-mv > .container > .slide:after {
+  right: 21px;
+}
+
+.top-page > .section-content > .container {
+  border: 5px solid #F2F2F2;
+  background-color: #ffffff;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 41px 17px 63px;
+}
+
+.top-page > .section-content > .container > .tags {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 29px;
+}
+
+.top-page > .section-content > .container > .tags > .tag {
+  position: relative;
+  background-color: #EEEEEE;
+  border: 2px solid #ffffff;
+  width: 105px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.06em;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.top-page > .section-content > .container > .tags > .tag.double {
+  padding: 8px 0;
+}
+
+.top-page > .section-content > .container > .tags > .tag.is-active {
+  background-color: #ffffff;
+  border: 0;
+  color: #ff66cc;
+}
+
+.top-page > .section-content > .container > .tags > .tag.is-active:after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  background-color: #ff66cc;
+  width: 100%;
+  height: 4px;
+}
+
+.top-page > .section-content > .container > .tags > .tag:before {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  background-color: #ff66cc;
+  width: 100%;
+  height: 4px;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-transform-origin: center top;
+  transform-origin: center top;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.top-page > .section-content > .container > .tags > .tag:hover:before {
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+
+.top-page > .section-content > .container > .contents > .amount {
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  margin-bottom: 26px;
+}
+
+.top-page > .section-content > .container > .contents > .recommend {
+  border: 2px solid #9C7D02;
+  border-radius: 1px;
+  padding-bottom: 20px;
+  margin-bottom: 19px;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .title {
+  background: -webkit-gradient(linear, left top, left bottom, from(#EBC410), to(#9C7D02));
+  background: -webkit-linear-gradient(#EBC410, #9C7D02);
+  background: linear-gradient(#EBC410, #9C7D02);
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0.06em;
+  line-height: 120%;
+  font-weight: bold;
+  text-align: center;
+  padding: 6px 0;
+  margin-bottom: 19px;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines {
+  padding: 0 5px;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: calc((100% - 96px) / 6);
+  margin: 0 8px;
+  -webkit-box-shadow: 1px 1px 3px #999999;
+  box-shadow: 1px 1px 3px #999999;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link > .status {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 8px 8px 0 0;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding: 3px 0;
+  z-index: 99;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link > .status.playing {
+  background: rgba(255, 60, 64, 0.9);
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link > .status.add {
+  background: rgba(255, 132, 62, 0.9);
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link > .status.maintenance {
+  background: rgba(38, 113, 206, 0.9);
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link > .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 89;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link > .thumbnail {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link > .title {
+  color: #2284E5;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 17px;
+  padding: 0 4px;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link > .point {
+  padding: 0 4px;
+  margin-bottom: 5px;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link > .point > .icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 2px;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link > .point > .number {
+  color: #FF8C19;
+  font-size: 11px;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link > .label {
+  position: absolute;
+  bottom: 5px;
+  right: -3px;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link > .label.new {
+  width: 40px;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link > .label.few {
+  width: 59px;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link > .label.recommend {
+  width: 52px;
+}
+
+.top-page > .section-content > .container > .contents > .recommend > .machines > .machine > .link:hover {
+  opacity: 0.5;
+}
+
+.top-page > .section-content > .container > .contents > .machines {
+  max-width: 942px;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.top-page > .section-content > .container > .contents > .machines > .machine {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: calc((100% - 96px) / 6);
+  margin: 0 8px 19px;
+  -webkit-box-shadow: 1px 1px 3px #999999;
+  box-shadow: 1px 1px 3px #999999;
+}
+
+.top-page > .section-content > .container > .contents > .machines > .machine > .link {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.top-page > .section-content > .container > .contents > .machines > .machine > .link > .thumbnail {
+  width: 100%;
+}
+
+.top-page > .section-content > .container > .contents > .machines > .machine > .link > .title {
+  color: #2284E5;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 17px;
+  padding: 0 4px;
+}
+
+.top-page > .section-content > .container > .contents > .machines > .machine > .link > .point {
+  padding: 0 4px;
+  margin-bottom: 5px;
+}
+
+.top-page > .section-content > .container > .contents > .machines > .machine > .link > .point > .icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 2px;
+}
+
+.top-page > .section-content > .container > .contents > .machines > .machine > .link > .point > .number {
+  color: #FF8C19;
+  font-size: 11px;
+}
+
+.top-page > .section-content > .container > .contents > .machines > .machine > .link > .label {
+  position: absolute;
+  bottom: 5px;
+  right: -3px;
+  width: 40px;
+}
+
+.top-page > .section-content > .container > .contents > .machines > .machine > .link:hover {
+  opacity: 0.5;
+}
+
+.top-page > .section-content > .container > .page-top {
+  position: fixed;
+  right: 100px;
+  bottom: 40px;
+}
+
+.top-page > .section-content > .container > .page-top > .link {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.top-page > .section-content > .container > .page-top > .link > .img {
+  width: 99px;
+}
+
+.is-hide {
+  display: none;
+}

@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.privacy-page {
+  padding-top: 130px;
+  padding-bottom: 26px;
+}
+
+.privacy-page > .section-content {
+  padding: 0 16px;
+}
+
+.privacy-page > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px 15px 28px;
+}
+
+.privacy-page > .section-content > .container > .area {
+  width: 100%;
+  margin: auto;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.privacy-page > .section-content > .container > .area > .tab_area > li {
+  background-color: #cccccc;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid #999999;
+  display: block;
+  width: calc(100%/3);
+  color: #000000;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  float: left;
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  order: -1;
+  padding: 8px 0 10px;
+  cursor: pointer;
+}
+
+.privacy-page > .section-content > .container > .area > .tab_area > li.select {
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  border-bottom: 0;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area {
+  padding-top: 54px;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area.hide {
+  display: none;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  padding-bottom: 12px;
+  margin-bottom: 19px;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area > .company {
+  font-size: 13px;
+  margin-bottom: 12px;
+  margin-left: 8px;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area > .table {
+  border: 1px solid #BFBFBF;
+  max-width: 648px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area > .table > tbody > .cell {
+  border-bottom: 1px solid #BFBFBF;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area > .table > tbody > .cell > .label {
+  background-color: #EEEEEE;
+  border-right: 1px solid #BFBFBF;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: left;
+  padding: 8px 13px 6px;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area > .table > tbody > .cell > .data {
+  font-size: 11px;
+  padding: 8px 17px 6px;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area > .label {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area > .text {
+  font-size: 11px;
+  margin-bottom: 17px;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area > .text > .indent {
+  display: block;
+  padding-left: 1em;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area > .text > .deep-indent {
+  display: block;
+  padding-left: 3em;
+  text-indent: -1em;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area > .text > .first-indent {
+  display: block;
+  text-indent: 1em;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area > .text > .deep-indent-number {
+  display: block;
+  padding-left: 2em;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area > .text.first-indent {
+  text-indent: 1em;
+}

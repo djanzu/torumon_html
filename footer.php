@@ -1,0 +1,133 @@
+<footer class="footer">
+  <div class="container">
+    <div class="flex">
+      <div class="left flex">
+        <ul class="pages news">
+          <li class="category">
+            <a href="/news/" class="link">
+              お知らせ
+            </a>
+          </li>
+          <li class="page">
+            <a href="/news/" class="link">
+              告知
+            </a>
+          </li>
+          <li class="page">
+            <a href="/news/" class="link">
+              プライズ情報
+            </a>
+          </li>
+          <li class="page">
+            <a href="/news/" class="link">
+              イベント
+            </a>
+          </li>
+          <li class="page">
+          <a href="/news/" class="link">
+              アップデート
+            </a>
+          </li>
+          <li class="page">
+            <a href="/news/" class="link">
+              メンテナンス
+            </a>
+          </li>
+        </ul>
+
+        <ul class="pages guid">
+          <li class="category">
+            <a href="/guid/" class="link">
+              初めての方へ
+            </a>
+          </li>
+          <li class="page">
+            <a href="/news/" class="link">
+              とるもんランドとは
+            </a>
+          </li>
+          <li class="page">
+            <a href="/news/" class="link">
+              ポイントについて
+            </a>
+          </li>
+          <li class="page">
+            <a href="/news/" class="link">
+              操作方法
+            </a>
+          </li>
+          <li class="page">
+          <a href="/news/" class="link">
+              景品発送について
+            </a>
+          </li>
+          <li class="page">
+            <a href="/news/" class="link">
+              推奨スペック
+            </a>
+          </li>
+        </ul>
+
+        <ul class="pages">
+          <li class="category">
+            <a href="/news/" class="link">
+             マイページ
+            </a>
+          </li>
+          <li class="page">
+            <a href="/news/" class="link">
+              マイページトップ
+            </a>
+          </li>
+          <li class="page">
+            <a href="/news/" class="link">
+              パスワード変更
+            </a>
+          </li>
+          <li class="page">
+            <a href="/news/" class="link">
+              獲得した商品&景品発送
+            </a>
+          </li>
+          <li class="page">
+          <a href="/news/" class="link">
+              各種コード入力
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <img src="../assets/img/logo.png" alt="" class="logo">
+        <p class="text">オンラインクレーンゲームトルもんランドとは、インターネット経由でクレーンゲームを楽しむ事ができるサービスです。<br>実際のクレーンゲームを遠隔操作して楽しめるため、自宅にいてもゲームセンターと同じような感覚を味わうことができます。<br>いつでもどこでもお好きな時間にネットクレーンゲームをお楽しみください。</p>
+      </div>
+    </div>
+    <ul class="pages flex">
+      <li class="page contact">
+        <a href="/contact/" class="link">お問い合わせ</a>
+      </li>
+      <li class="page guide">
+        <a href="/faq/" class="link">FAQ</a>
+      </li>
+
+      <li class="page handle">
+        <a href="/privacy/index.php#tab1" class="link">特定商取引法に関する表示</a>
+      </li>
+
+      <li class="page mypage">
+        <a href="/privacy/index.php#tab2" class="link">プライバシーポリシー</a>
+      </li>
+
+      <li class="page handle">
+        <a href="/privacy/index.php#tab3" class="link">利用規約</a>
+      </li>
+
+      <li class="page mypage">
+        <a href="/sitemap/" class="link" target="_blank">運営会社</a>
+      </li>
+    </ul>
+    <p class="copyright">
+      ©︎2020 東洋レコーディング株式会社
+    </p>
+  </div>
+</footer>

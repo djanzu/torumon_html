@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.maintenance-page {
+  padding-top: 261px;
+  padding-bottom: 280px;
+}
+
+.maintenance-page > .section-content {
+  padding: 0 16px;
+}
+
+.maintenance-page > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 28px 14px 15px;
+}
+
+.maintenance-page > .section-content > .container > .date {
+  border-bottom: 3px solid #ff66cc;
+  padding-bottom: 23px;
+  margin-bottom: 32px;
+}
+
+.maintenance-page > .section-content > .container > .date > .text {
+  font-size: 13px;
+  letter-spacing: -0.04em;
+  line-height: 19px;
+  text-align: center;
+}
+
+.maintenance-page > .section-content > .container > .main-content > .title,
+.maintenance-page > .section-content > .container > .main-content > .text {
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.maintenance-page > .section-content > .container > .main-content > .title {
+  margin-bottom: 27px;
+}
+
+.maintenance-page > .section-content > .container > .main-content > .text {
+  margin-bottom: 39px;
+}

@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.faq-page {
+  padding-top: 130px;
+  padding-bottom: 26px;
+}
+
+.faq-page > .section-content {
+  padding: 0 16px;
+}
+
+.faq-page > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 14px 14px 17px;
+}
+
+.faq-page > .section-content > .container > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 19px;
+  padding-bottom: 11px;
+  padding-left: 10px;
+  margin-bottom: 21px;
+}
+
+.faq-page > .section-content > .container > .tab_item {
+  background-color: #cccccc;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid #999999;
+  display: block;
+  width: calc(100%/5);
+  color: #000000;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  float: left;
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  order: -1;
+  padding: 8px 0 10px;
+  cursor: pointer;
+}
+
+.faq-page > .section-content > .container > input[name="tab_item"] {
+  display: none;
+}
+
+.faq-page > .section-content > .container > input:checked + .tab_item {
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  border-bottom: 0;
+}
+
+.faq-page > .section-content > .container > .tab_content {
+  display: none;
+  clear: both;
+  overflow: hidden;
+  padding: 30px 14px 0;
+}
+
+.faq-page > .section-content > .container > .tab_content > .questions > .question {
+  margin-bottom: 15px;
+}
+
+.faq-page > .section-content > .container > .tab_content > .questions > .question > .text {
+  background-color: #FFF2FB;
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  padding: 6px 8px;
+  font-size: 15px;
+  line-height: 35px;
+  z-index: 9999;
+}
+
+.faq-page > .section-content > .container > .tab_content > .questions > .question > .text > .pink {
+  color: #ff66cc;
+  font-size: 20px;
+  line-height: 35px;
+  margin-right: 2px;
+}
+
+.faq-page > .section-content > .container > .tab_content > .questions > .question > .text > .icon {
+  margin: 0 0 0 auto;
+}
+
+.faq-page > .section-content > .container > .tab_content > .questions > .question > .text.active {
+  border-radius: 5px 5px 0 0;
+}
+
+.faq-page > .section-content > .container > .tab_content > .questions > .question > .answer {
+  display: none;
+}
+
+.faq-page > .section-content > .container > .tab_content > .questions > .question > .answer.active {
+  display: block;
+}
+
+.faq-page > .section-content > .container > .tab_content > .questions > .question > .answer > .text {
+  background-color: #F2FBFF;
+  border-bottom: 3px solid #66D2FF;
+  border-right: 3px solid #66D2FF;
+  border-left: 3px solid #66D2FF;
+  border-radius: 0 0 5px 5px;
+  padding: 5px 10px 15px;
+  font-size: 11px;
+  line-height: 8px;
+  padding-left: 3em;
+  text-indent: -2em;
+}
+
+.faq-page > .section-content > .container > .tab_content > .questions > .question > .answer > .text > .blue {
+  color: #66D2FF;
+  font-size: 20px;
+  line-height: 35px;
+  margin-right: 8px;
+}
+
+.faq-page > .section-content > .container > .tab_content > .text {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: -0.04em;
+  line-height: 19px;
+}
+
+.faq-page > .section-content > .container > .tab_content > .text > .link {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.faq-page > .section-content > .container > #tab01:checked ~ #tab01_content,
+.faq-page > .section-content > .container > #tab02:checked ~ #tab02_content,
+.faq-page > .section-content > .container > #tab03:checked ~ #tab03_content,
+.faq-page > .section-content > .container > #tab04:checked ~ #tab04_content,
+.faq-page > .section-content > .container > #tab05:checked ~ #tab05_content {
+  display: block;
+}
