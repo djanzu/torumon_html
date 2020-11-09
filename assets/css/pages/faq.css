@@ -83,7 +83,7 @@ color: $color-font-white;
   background-color: #FFF2FB;
   border: 3px solid #ff66cc;
   border-radius: 5px;
-  padding: 6px 8px;
+  padding: 2px 8px;
   font-size: 15px;
   line-height: 35px;
   z-index: 9999;
@@ -104,32 +104,44 @@ color: $color-font-white;
   border-radius: 5px 5px 0 0;
 }
 
-.faq-page > .section-content > .container > .tab_content > .questions > .question > .answer {
+.faq-page > .section-content > .container > .tab_content > .questions > .question > .answers {
   display: none;
 }
 
-.faq-page > .section-content > .container > .tab_content > .questions > .question > .answer.active {
+.faq-page > .section-content > .container > .tab_content > .questions > .question > .answers.active {
   display: block;
 }
 
-.faq-page > .section-content > .container > .tab_content > .questions > .question > .answer > .text {
+.faq-page > .section-content > .container > .tab_content > .questions > .question > .answers > .answer {
   background-color: #F2FBFF;
   border-bottom: 3px solid #66D2FF;
   border-right: 3px solid #66D2FF;
   border-left: 3px solid #66D2FF;
   border-radius: 0 0 5px 5px;
-  padding: 5px 10px 15px;
-  font-size: 11px;
-  line-height: 8px;
-  padding-left: 3em;
-  text-indent: -2em;
+  padding: 15px 10px 15px;
 }
 
-.faq-page > .section-content > .container > .tab_content > .questions > .question > .answer > .text > .blue {
+.faq-page > .section-content > .container > .tab_content > .questions > .question > .answers > .answer > .blue {
   color: #66D2FF;
   font-size: 20px;
-  line-height: 35px;
+  line-height: 17px;
   margin-right: 8px;
+}
+
+.faq-page > .section-content > .container > .tab_content > .questions > .question > .answers > .answer > .text {
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.faq-page > .section-content > .container > .tab_content > .questions > .question > .answers > .answer > .text > .link {
+  color: #000000;
+  text-decoration: underline;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.faq-page > .section-content > .container > .tab_content > .questions > .question > .answers > .answer > .text > .link:hover {
+  opacity: 0.5;
 }
 
 .faq-page > .section-content > .container > .tab_content > .text {

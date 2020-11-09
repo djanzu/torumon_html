@@ -13,7 +13,7 @@ color: $color-font-white;
  */
 .top-page {
   position: relative;
-  padding-top: 103px;
+  padding-top: 96px;
   padding-bottom: 0;
 }
 
@@ -89,7 +89,9 @@ color: $color-font-white;
 }
 
 .top-page > .section-content > .container {
-  border: 5px solid #F2F2F2;
+  position: relative;
+  border-left: 5px solid #F2F2F2;
+  border-right: 5px solid #F2F2F2;
   background-color: #ffffff;
   max-width: 1000px;
   margin: 0 auto;
@@ -356,6 +358,10 @@ color: $color-font-white;
   opacity: 0.5;
 }
 
+.top-page > .section-content > .container > .contents > .machines > .machine.normal > .link > .title {
+  margin-bottom: 4px;
+}
+
 .top-page > .section-content > .container > .page-top {
   position: fixed;
   right: 100px;
@@ -369,6 +375,12 @@ color: $color-font-white;
 
 .top-page > .section-content > .container > .page-top > .link > .img {
   width: 99px;
+}
+
+.top-page > .section-content > .container > .search {
+  position: absolute;
+  top: 170px;
+  right: 10px;
 }
 
 .is-hide {

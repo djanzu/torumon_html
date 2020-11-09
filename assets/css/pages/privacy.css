@@ -108,6 +108,17 @@ color: $color-font-white;
   padding: 8px 17px 6px;
 }
 
+.privacy-page > .section-content > .container > .area > .content_area > .table > tbody > .cell > .data > .link {
+  color: #000000;
+  text-decoration: underline;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.privacy-page > .section-content > .container > .area > .content_area > .table > tbody > .cell > .data > .link:hover {
+  opacity: 0.5;
+}
+
 .privacy-page > .section-content > .container > .area > .content_area > .label {
   font-size: 15px;
   font-weight: bold;

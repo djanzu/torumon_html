@@ -116,16 +116,21 @@
             </li>
           </ul>
           <ul class="members-button flex">
-            <li class="button">
+            <!-- <li class="button">
               <a href="" class="link">
                 <img src="assets/img/login.svg" alt="ログイン" class="img">ログイン
               </a>
-            </li>
+            </li> -->
             <li class="button">
+            <a href="" class="link">
+              <img src="assets/img/logout.svg" alt="ログイン" class="img">ログアウト
+            </a>
+          </li>
+            <!-- <li class="button">
               <a href="" class="link">
                 <img src="assets/img/signup.svg" alt="会員登録" class="img">会員登録
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -288,339 +293,186 @@
           </div>
 
           <ul class="machines flex">
-            <li class="content machine" data-group="b">
+            <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
                 <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
             </li>
-            <li class="content machine" data-group="c">
+            <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
-                </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
-              </a>
-            </li>
-            <li class="content machine" data-group="b">
-              <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
-                <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
-                </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
-              </a>
-            </li>
-            <li class="content machine" data-group="e">
-              <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
-                <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
-                </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
-              </a>
-            </li>
-            <li class="content machine" data-group="f">
-              <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
-                <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
-                </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
-              </a>
-            </li>
-            <li class="content machine" data-group="g">
-              <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
-                <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
-                </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
-              </a>
-            </li>
-
-            <li class="content machine" data-group="b">
-              <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
-                <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
                 <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-            <li class="content machine" data-group="c">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
-                </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
-              </a>
-            </li>
-            <li class="content machine" data-group="b">
-              <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
-                <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
-                </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
-              </a>
-            </li>
-            <li class="content machine" data-group="e">
-              <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
-                <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
-                </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
-              </a>
-            </li>
-            <li class="content machine" data-group="f">
-              <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
-                <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
-                </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
-              </a>
-            </li>
-            <li class="content machine" data-group="g">
-              <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
-                <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
-                </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
-              </a>
-            </li>
-
-            <li class="content machine" data-group="b">
-              <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
-                <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
                 <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-            <li class="content machine" data-group="c">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
+                <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-            <li class="content machine" data-group="b">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
+                <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-            <li class="content machine" data-group="e">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
+                <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-            <li class="content machine" data-group="f">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
+                <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-            <li class="content machine" data-group="g">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
+                <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-
-            <li class="content machine" data-group="b">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
+                <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-            <li class="content machine" data-group="e">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
+                <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-            <li class="content machine" data-group="f">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
+                <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-            <li class="content machine" data-group="g">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
+                <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-
-            <li class="content machine" data-group="b">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
+                <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-            <li class="content machine" data-group="e">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
+                <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-            <li class="content machine" data-group="f">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
+                <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-            <li class="content machine" data-group="g">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
+                <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-
-            <li class="content machine" data-group="b">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
+                <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
-            </li>
-            <li class="content machine" data-group="e">
+            </li> <li class="content machine normal" data-group="b">
               <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
+                <img src="assets/img/top/machine-thumbnail-normal.png" alt="サムネイル" class="thumbnail">
+                <p class="title">【トルもんランド】<br>トルもんぬいぐるみ</p>
                 <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
+                <img src="assets/img/point.svg" alt="ポイント" class="icon">
+                  <p class="number">2000</p>
                 </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
-              </a>
-            </li>
-            <li class="content machine" data-group="f">
-              <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
-                <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
-                </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
-              </a>
-            </li>
-            <li class="content machine" data-group="g">
-              <a href="" class="link">
-                <img src="assets/img/top/machine-thumbnail.png" alt="サムネイル" class="thumbnail">
-                <p class="title">【３回で交代】練習台</p>
-                <div class="point flex">
-                  <img src="assets/img/point.svg" alt="ポイント" class="icon">
-                  <p class="number">500</p>
-                </div>
-                <img src="assets/img/top/new.svg" alt="NEW" class="label">
+                <!-- <img src="assets/img/top/new.svg" alt="NEW" class="label"> -->
               </a>
             </li>
           </ul>
@@ -631,6 +483,10 @@
         <img src="assets/img/backtotop.png" alt="" class="img"> 
         </a>
         </div>
+
+        <div class="search">
+        <img src="assets/img/top/search.png" alt="" class="icon">
+      </div>
       </div>
     </section>
   </main>

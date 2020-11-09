@@ -62,9 +62,12 @@
               <span class="pink">Q</span>どうやって登録しますか？
                 <img src="../assets/img/faq/open.svg" alt="開く" class="icon">
               </p>
-              <ul class="answer">
-                <li class="text">
-                <span class="blue">A</span>お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+              <ul class="answers">
+                <li class="answer flex">
+                <p class="blue">A</p>
+                <p class="text">
+                お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+                </p>
                 </li>
               </ul>
             </li>
@@ -75,9 +78,12 @@
      
                 <img src="../assets/img/faq/open.svg" alt="開く" class="icon">
               </p>
-              <ul class="answer">
-                <li class="text">
+              <ul class="answers">
+                <li class="answer flex">
+                <p class="blue">A</p>
+                <p class="text">
                 お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+                </p>
                 </li>
               </ul>
             </li>
@@ -88,9 +94,12 @@
      
                 <img src="../assets/img/faq/open.svg" alt="開く" class="icon">
               </p>
-              <ul class="answer">
-                <li class="text">
+              <ul class="answers">
+                <li class="answer flex">
+                <p class="blue">A</p>
+                <p class="text">
                 お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+                </p>
                 </li>
               </ul>
             </li>
@@ -110,9 +119,12 @@
               <span class="pink">Q</span>どうやって登録しますか？
                 <img src="../assets/img/faq/open.svg" alt="開く" class="icon">
               </p>
-              <ul class="answer">
-                <li class="text">
-                <span class="blue">A</span>お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+              <ul class="answers">
+                <li class="answer flex">
+                <p class="blue">A</p>
+                <p class="text">
+                お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+                </p>
                 </li>
               </ul>
             </li>
@@ -123,9 +135,12 @@
      
                 <img src="../assets/img/faq/open.svg" alt="開く" class="icon">
               </p>
-              <ul class="answer">
-                <li class="text">
+              <ul class="answers">
+                <li class="answer flex">
+                <p class="blue">A</p>
+                <p class="text">
                 お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+                </p>
                 </li>
               </ul>
             </li>
@@ -136,9 +151,12 @@
      
                 <img src="../assets/img/faq/open.svg" alt="開く" class="icon">
               </p>
-              <ul class="answer">
-                <li class="text">
+              <ul class="answers">
+                <li class="answer flex">
+                <p class="blue">A</p>
+                <p class="text">
                 お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+                </p>
                 </li>
               </ul>
             </li>
@@ -158,9 +176,12 @@
               <span class="pink">Q</span>どうやって登録しますか？
                 <img src="../assets/img/faq/open.svg" alt="開く" class="icon">
               </p>
-              <ul class="answer">
-                <li class="text">
-                <span class="blue">A</span>お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+              <ul class="answers">
+                <li class="answer flex">
+                <p class="blue">A</p>
+                <p class="text">
+                お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+                </p>
                 </li>
               </ul>
             </li>
@@ -171,9 +192,12 @@
      
                 <img src="../assets/img/faq/open.svg" alt="開く" class="icon">
               </p>
-              <ul class="answer">
-                <li class="text">
+              <ul class="answers">
+                <li class="answer flex">
+                <p class="blue">A</p>
+                <p class="text">
                 お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+                </p>
                 </li>
               </ul>
             </li>
@@ -184,9 +208,12 @@
      
                 <img src="../assets/img/faq/open.svg" alt="開く" class="icon">
               </p>
-              <ul class="answer">
-                <li class="text">
+              <ul class="answers">
+                <li class="answer flex">
+                <p class="blue">A</p>
+                <p class="text">
                 お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+                </p>
                 </li>
               </ul>
             </li>
@@ -206,9 +233,12 @@
               <span class="pink">Q</span>どうやって登録しますか？
                 <img src="../assets/img/faq/open.svg" alt="開く" class="icon">
               </p>
-              <ul class="answer">
-                <li class="text">
-                <span class="blue">A</span>お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+              <ul class="answers">
+                <li class="answer flex">
+                <p class="blue">A</p>
+                <p class="text">
+                お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+                </p>
                 </li>
               </ul>
             </li>
@@ -219,9 +249,12 @@
      
                 <img src="../assets/img/faq/open.svg" alt="開く" class="icon">
               </p>
-              <ul class="answer">
-                <li class="text">
+              <ul class="answers">
+                <li class="answer flex">
+                <p class="blue">A</p>
+                <p class="text">
                 お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+                </p>
                 </li>
               </ul>
             </li>
@@ -232,9 +265,12 @@
      
                 <img src="../assets/img/faq/open.svg" alt="開く" class="icon">
               </p>
-              <ul class="answer">
-                <li class="text">
+              <ul class="answers">
+                <li class="answer flex">
+                <p class="blue">A</p>
+                <p class="text">
                 お手持ちのEメールアドレスを使って、トップページの<a class="link" href="/signup/">「会員登録」</a>から、ガイダンスに従って登録して下さい。※ID認証で登録済みのサービスは除きます
+                </p>
                 </li>
               </ul>
             </li>
