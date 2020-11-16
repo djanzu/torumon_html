@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.contact-thanks-page {
+  padding-top: 100px;
+  padding-bottom: 188px;
+}
+
+.contact-thanks-page > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 14px 15px 46px;
+}
+
+.contact-thanks-page > .section-content > .container > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  padding-bottom: 11px;
+  margin-bottom: 15px;
+}
+
+.contact-thanks-page > .section-content > .container > .text {
+  font-size: 11px;
+  line-height: 14px;
+  margin-bottom: 35px;
+}
+
+.contact-thanks-page > .section-content > .container > .button {
+  max-width: 157px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact-thanks-page > .section-content > .container > .button > .link > .img {
+  width: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.contact-thanks-page > .section-content > .container > .button > .link:hover > .img {
+  opacity: 0.5;
+}

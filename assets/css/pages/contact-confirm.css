@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.contact-confirm-page {
+  padding-top: 100px;
+  padding-bottom: 188px;
+}
+
+.contact-confirm-page > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 14px 15px 46px;
+}
+
+.contact-confirm-page > .section-content > .container > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  padding-bottom: 11px;
+  margin-bottom: 15px;
+}
+
+.contact-confirm-page > .section-content > .container > .required {
+  font-size: 11px;
+  margin-bottom: 8px;
+  padding-left: 7px;
+}
+
+.contact-confirm-page > .section-content > .container > .required > .red {
+  color: #E61717;
+}
+
+.contact-confirm-page > .section-content > .container > .form {
+  max-width: 648px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .table {
+  border: 1px solid #BFBFBF;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .table > tbody > .cell {
+  border-bottom: 1px solid #BFBFBF;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .table > tbody > .cell > .label {
+  border-right: 1px solid #BFBFBF;
+  width: 165px;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: left;
+  padding: 13px 12px 12px;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .table > tbody > .cell > .label > .red {
+  color: #E61717;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .table > tbody > .cell > .label.detail {
+  vertical-align: top;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .table > tbody > .cell > .data {
+  font-size: 11px;
+  padding: 8px 12px 10px;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .table > tbody > .cell > .data > .input,
+.contact-confirm-page > .section-content > .container > .form > .table > tbody > .cell > .data > .select,
+.contact-confirm-page > .section-content > .container > .form > .table > tbody > .cell > .data > .textarea {
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  font-size: 11px;
+  padding: 5px 10px;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .table > tbody > .cell > .data > .textarea {
+  height: 75px;
+  vertical-align: top;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .table > tbody > .cell > .data > .textarea::-webkit-input-placeholder {
+  vertical-align: top;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .table > tbody > .cell > .data > .textarea::-moz-placeholder {
+  vertical-align: top;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .table > tbody > .cell > .data > .textarea:-ms-input-placeholder {
+  vertical-align: top;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .table > tbody > .cell > .data > .textarea::-ms-input-placeholder {
+  vertical-align: top;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .table > tbody > .cell > .data > .textarea::placeholder {
+  vertical-align: top;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .button {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .button > .link {
+  border: 0;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 2px 0px #B2B2B2;
+  box-shadow: 0px 2px 0px #B2B2B2;
+  width: 101px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 13px 12px 12px;
+  margin: 0 13px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .button > .link.back {
+  background-color: #666666;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .button > .link.back > a {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .button > .link.send {
+  background-color: #ff66cc;
+}
+
+.contact-confirm-page > .section-content > .container > .form > .button > .link:hover {
+  opacity: 0.5;
+}

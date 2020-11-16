@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.contact-page {
+  padding-top: 100px;
+  padding-bottom: 188px;
+}
+
+.contact-page > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 14px 15px 45px;
+}
+
+.contact-page > .section-content > .container > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  padding-bottom: 11px;
+  margin-bottom: 15px;
+}
+
+.contact-page > .section-content > .container > .required {
+  font-size: 11px;
+  margin-bottom: 8px;
+  padding-left: 7px;
+}
+
+.contact-page > .section-content > .container > .required > .red {
+  color: #E61717;
+}
+
+.contact-page > .section-content > .container > .form {
+  max-width: 648px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.contact-page > .section-content > .container > .form > .table {
+  border: 1px solid #BFBFBF;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.contact-page > .section-content > .container > .form > .table > tbody > .cell {
+  border-bottom: 1px solid #BFBFBF;
+}
+
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .label {
+  border-right: 1px solid #BFBFBF;
+  width: 165px;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: left;
+  padding: 13px 12px 12px;
+}
+
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .label > .red {
+  color: #E61717;
+}
+
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .label.detail {
+  vertical-align: top;
+}
+
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .data {
+  font-size: 11px;
+  padding: 8px 12px 10px;
+}
+
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .data > .input,
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .data > .select,
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .data > .textarea {
+  border: 1px solid #BFBFBF;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  font-size: 11px;
+  padding: 5px 10px;
+}
+
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .data > .textarea {
+  height: 75px;
+  vertical-align: top;
+}
+
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .data > .textarea::-webkit-input-placeholder {
+  vertical-align: top;
+}
+
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .data > .textarea::-moz-placeholder {
+  vertical-align: top;
+}
+
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .data > .textarea:-ms-input-placeholder {
+  vertical-align: top;
+}
+
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .data > .textarea::-ms-input-placeholder {
+  vertical-align: top;
+}
+
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .data > .textarea::placeholder {
+  vertical-align: top;
+}
+
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .data.select {
+  position: relative;
+}
+
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .data.select:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 19px;
+  right: 22px;
+  border-bottom: solid 1px #000000;
+  border-right: solid 1px #000000;
+  width: 6px;
+  height: 6px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.contact-page > .section-content > .container > .form > .table > tbody > .cell > .data > .error {
+  color: #E61717;
+  font-size: 11px;
+}
+
+.contact-page > .section-content > .container > .form > .button {
+  text-align: center;
+}
+
+.contact-page > .section-content > .container > .form > .button > .link {
+  background-color: #35D3CF;
+  border: 0;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 2px 0px #B2B2B2;
+  box-shadow: 0px 2px 0px #B2B2B2;
+  width: 101px;
+  padding: 13px 12px 12px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.contact-page > .section-content > .container > .form > .button > .link > a {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.contact-page > .section-content > .container > .form > .button > .link:hover {
+  opacity: 0.5;
+}
+
+.contact-page > .section-content > .container > .notice {
+  max-width: 537px;
+  margin: 0 auto;
+}
+
+.contact-page > .section-content > .container > .notice > .title {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-page > .section-content > .container > .notice > .text {
+  font-size: 11px;
+}
+
+.contact-page > .section-content > .container > .notice > .text.mb {
+  margin-bottom: 21px;
+}
+
+.contact-page > .section-content > .container > .notice > .text.red {
+  color: #E61717;
+  font-weight: bold;
+}
