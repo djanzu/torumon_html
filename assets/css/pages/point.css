@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.point-page {
+  padding-top: 100px;
+  padding-bottom: 78px;
+}
+
+.point-page > .container {
+  max-width: 912px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.point-page > .container > .sidebar {
+  max-width: 192px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.point-page > .container > .sidebar > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0 11px;
+}
+
+.point-page > .container > .sidebar > .container > .pages > .page {
+  border-bottom: 3px solid #ff66cc;
+  padding: 7px 0;
+}
+
+.point-page > .container > .sidebar > .container > .pages > .page > .link {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.point-page > .container > .sidebar > .container > .pages > .page > .link > .icon {
+  width: 19px;
+  margin-right: 5px;
+}
+
+.point-page > .container > .sidebar > .container > .pages > .page > .link > .text {
+  color: #000000;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: -0.1em;
+  padding-top: 3px;
+}
+
+.point-page > .container > .sidebar > .container > .pages > .page > .link:hover {
+  opacity: 0.5;
+}
+
+.point-page > .container > .sidebar > .container > .pages > .page:last-child {
+  border: 0;
+}
+
+.point-page > .container > .section-content {
+  width: 100%;
+}
+
+.point-page > .container > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 14px 14px 19px;
+}
+
+.point-page > .container > .section-content > .container > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  padding-bottom: 11px;
+  margin-bottom: 20px;
+}
+
+.point-page > .container > .section-content > .container > .balance {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #E5E5E5;
+  border-radius: 50px;
+  max-width: 224px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 6px 14px;
+}
+
+.point-page > .container > .section-content > .container > .balance > .label {
+  font-size: 15px;
+  margin-right: 16px;
+}
+
+.point-page > .container > .section-content > .container > .balance > .number {
+  color: #FF8C19;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.point-page > .container > .section-content > .container > .balance > .icon {
+  width: 19px;
+  height: 19px;
+}
+
+.point-page > .container > .section-content > .container > .points {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 606px;
+  margin: 0 auto;
+  margin-bottom: 54px;
+}
+
+.point-page > .container > .section-content > .container > .points > .point {
+  border-bottom: 3px solid #ff66cc;
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  width: calc((100% - 78px) / 3);
+  margin: 0 13px 24px;
+  padding: 14px 10px 10px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.point-page > .container > .section-content > .container > .points > .point > .link {
+  background-color: #ffffff;
+}
+
+.point-page > .container > .section-content > .container > .points > .point > .link > .number {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.point-page > .container > .section-content > .container > .points > .point > .link > .number > .text {
+  color: #FF8C19;
+  font-size: 33px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.point-page > .container > .section-content > .container > .points > .point > .link > .number > .icon {
+  width: 33px;
+  height: 33px;
+}
+
+.point-page > .container > .section-content > .container > .points > .point > .link > .price {
+  background-color: #ff66cc;
+  border-radius: 5px;
+  max-width: 127px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.point-page > .container > .section-content > .container > .points > .point:hover {
+  background-color: #EEEEEE;
+}
+
+.point-page > .container > .section-content > .container > .transaction-law {
+  text-align: center;
+}
+
+.point-page > .container > .section-content > .container > .transaction-law > .link {
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: -0.04em;
+  line-height: 30px;
+  text-decoration: underline;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 17px;
+}
+
+.point-page > .container > .section-content > .container > .transaction-law > .link:hover {
+  opacity: 0.5;
+}
+
+.point-page > .container > .section-content > .container > .notice {
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: -0.04em;
+  line-height: 30px;
+}
