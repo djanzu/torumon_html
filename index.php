@@ -5,25 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-  <title>トルモンランド</title>
+  <title>トルもんランド</title>
   <meta name="title" content="トルモンランド">
-  <meta name="description" content="僕らの家は東京都目黒区で新築注文住宅やリノベーションの設計・
-  デザイン業務・建築施工などの事業を行っております。
-  一番自分らしくいられた「僕ら」だった時代を思い出してだれにも遠慮せず、
-  常識にとらわれず、自由な発想で楽しむ家づくりをモットーにしています。
-  「あなただけの家」に、期待以上の感動とときめきを。">
-  <meta name=" keywords" content="僕らの家,注文住宅,東京都,目黒区,池尻大橋">
+  <meta name="description" content="">
+  <meta name=" keywords" content="">
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="僕らの家" />
-  <meta property="og:description" content="僕らの家は東京都目黒区で新築注文住宅やリノベーションの設計・
-  デザイン業務・建築施工などの事業を行っております。
-  一番自分らしくいられた「僕ら」だった時代を思い出してだれにも遠慮せず、
-  常識にとらわれず、自由な発想で楽しむ家づくりをモットーにしています。
-  「あなただけの家」に、期待以上の感動とときめきを。" />
+  <meta property="og:title" content="トルもんランド" />
+  <meta property="og:description" content="" />
   <meta property="og:image" content="./assets/imgs/og-image.jpg" />
   <meta property="og:url" content="" />
-  <meta property="og:site_name" content="僕らの家" />
+  <meta property="og:site_name" content="トルもんランド" />
   <link rel="shortcut icon" href="./favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png/">
 
