@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.sitemap-page {
+  padding-top: 100px;
+  padding-bottom: 208px;
+}
+
+.sitemap-page > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 14px 15px 130px;
+}
+
+.sitemap-page > .section-content > .container > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  padding-bottom: 11px;
+  margin-bottom: 42px;
+}
+
+.sitemap-page > .section-content > .container > .flex {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 634px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sitemap-page > .section-content > .container > .flex > .pages > .page {
+  margin-bottom: 10px;
+}
+
+.sitemap-page > .section-content > .container > .flex > .pages > .page > .link {
+  color: #000000;
+  font-size: 15px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.sitemap-page > .section-content > .container > .flex > .pages > .page > .link:hover {
+  opacity: 0.5;
+}
+
+.sitemap-page > .section-content > .container > .flex > .pages > .page.indent {
+  padding-left: 14px;
+}
