@@ -30,7 +30,7 @@
 </head>
 
 <body>
-  <?php include(dirname(__FILE__).'../../header.php'); ?>
+  <?php include(dirname(__FILE__).'/../header.php'); ?>
   <main class="sitemap-page">
     <section class="section-content">
       <div class="container">
@@ -112,7 +112,7 @@
 
 
   </main>
-  <?php include(dirname(__FILE__).'../../footer.php'); ?>
+  <?php include(dirname(__FILE__).'/../footer.php'); ?>
 </body>
 
 </html>

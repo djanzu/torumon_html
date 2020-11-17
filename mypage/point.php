@@ -29,7 +29,7 @@
 </head>
 
 <body>
-  <?php include(dirname(__FILE__).'../../header.php'); ?>
+<?php include ( dirname(__FILE__) . '/../header.php' ); ?>
 
   <main class="point-page">
     <div class="container  flex">
@@ -192,7 +192,7 @@
     </section>
     </div>
   </main>
-  <?php include(dirname(__FILE__).'../../footer.php'); ?>
+  <?php include(dirname(__FILE__).'/../footer.php'); ?>
 </body>
 
 </html>

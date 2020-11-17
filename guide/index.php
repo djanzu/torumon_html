@@ -35,7 +35,7 @@
 </head>
 
 <body>
-  <?php include(dirname(__FILE__).'../../header.php'); ?>
+  <?php include(dirname(__FILE__).'/../header.php'); ?>
 
   <main class="guid-page">
     <section class="section-content">
@@ -200,7 +200,7 @@
       </div>
     </section>
   </main>
-  <?php include(dirname(__FILE__).'../../footer.php'); ?>
+  <?php include(dirname(__FILE__).'/../footer.php'); ?>
 </body>
 
 </html>

@@ -42,11 +42,11 @@
         </li>
 
         <li class="page twitter">
-          <a href="/mypage/" class="link twitter"><img class="icon" src="../assets/img/twitter.png" alt="Twitter"></a>
+          <a href="/mypage/" class="link twitter"><img class="icon" src="/assets/img/twitter.png" alt="Twitter"></a>
         </li>
 
         <li class="page facebook">
-          <a href="/contact/" class="link facebook"><img class="icon" src="../assets/img/facebook.png" alt="Facebook"></a>
+          <a href="/contact/" class="link facebook"><img class="icon" src="/assets/img/facebook.png" alt="Facebook"></a>
         </li>
       </ul>
     </nav>
@@ -63,36 +63,41 @@
         <ul class="buttons flex">
           <li class="button buy">
             <a href="" class="link">
-              <img src="../assets/img/point_buy.svg" alt="ポイント購入" class="button">
+              <img src="/assets/img/point_buy.svg" alt="ポイント購入" class="button">
             </a>
           </li>
           <li class="button">
             <a href="" class="link flex cart">
-              <img src="../assets/img/cart.svg" alt="カート" class="icon cart"><p class="number cart">0</p>
+              <img src="/assets/img/cart.svg" alt="カート" class="icon cart"><p class="number cart">0</p>
             </a>
           </li>
           <li class="button">
             <a href="" class="link flex point">
-              <img src="../assets/img/point.svg" alt="ポイント" class="icon point"><p class="number point">0</p>
+              <img src="/assets/img/point.svg" alt="ポイント" class="icon point"><p class="number point">0</p>
             </a>
           </li>
           <li class="button">
             <a href="" class="link flex ticket">
-              <img src="../assets/img/ticket.svg" alt="送料freeチケット" class="icon ticket"><p class="number ticket">0</p>
+              <img src="/assets/img/ticket.svg" alt="送料freeチケット" class="icon ticket"><p class="number ticket">0</p>
             </a>
           </li>
         </ul>
         <ul class="members-button flex">
-          <li class="button">
+          <!-- <li class="button">
             <a href="" class="link">
               <img src="../assets/img/login.svg" alt="ログイン" class="img">ログイン
             </a>
-          </li>
+          </li> -->
           <li class="button">
+            <a href="" class="link">
+              <img src="/assets/img/logout.svg" alt="ログイン" class="img">ログアウト
+            </a>
+          </li>
+          <!-- <li class="button">
             <a href="" class="link">
               <img src="../assets/img/signup.svg" alt="会員登録" class="img">会員登録
             </a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -130,11 +135,11 @@
         </li>
 
         <li class="page twitter">
-          <a href="/mypage/" class="link"><img src="assets/img/twitter.png" alt="Twitter"></a>
+          <a href="/mypage/" class="link"><img src="/assets/img/twitter.png" alt="Twitter"></a>
         </li>
 
         <li class="page facebook">
-          <a href="/contact/" class="link"><img src="assets/img/facebook.png" alt="Facebook"></a>
+          <a href="/contact/" class="link"><img src="/assets/img/facebook.png" alt="Facebook"></a>
         </li>
       </ul>
 

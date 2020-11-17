@@ -29,7 +29,7 @@
 </head>
 
 <body>
-  <?php include(dirname(__FILE__).'../../header.php'); ?>
+  <?php include(dirname(__FILE__).'/../header.php'); ?>
   <main class="maintenance-page">
     <section class="section-content">
       <div class="container">
@@ -45,7 +45,7 @@
       </div>
     </section>
   </main>
-  <?php include(dirname(__FILE__).'../../footer.php'); ?>
+  <?php include(dirname(__FILE__).'/../footer.php'); ?>
 </body>
 
 </html>
