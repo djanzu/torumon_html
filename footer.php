@@ -10,27 +10,17 @@
           </li>
           <li class="page">
             <a href="/news/" class="link">
-              告知
+              すべて
             </a>
           </li>
           <li class="page">
             <a href="/news/" class="link">
-              プライズ情報
+              景品情報
             </a>
           </li>
           <li class="page">
             <a href="/news/" class="link">
-              イベント
-            </a>
-          </li>
-          <li class="page">
-          <a href="/news/" class="link">
-              アップデート
-            </a>
-          </li>
-          <li class="page">
-            <a href="/news/" class="link">
-              メンテナンス
+              重要なお知らせ
             </a>
           </li>
         </ul>
@@ -98,7 +88,7 @@
       </div>
 
       <div class="right">
-        <img src="../assets/img/logo.png" alt="" class="logo">
+        <img src="/assets/img/logo.png" alt="" class="logo">
         <p class="text">オンラインクレーンゲームトルもんランドとは、インターネット経由でクレーンゲームを楽しむ事ができるサービスです。<br>実際のクレーンゲームを遠隔操作して楽しめるため、自宅にいてもゲームセンターと同じような感覚を味わうことができます。<br>いつでもどこでもお好きな時間にネットクレーンゲームをお楽しみください。</p>
       </div>
     </div>
