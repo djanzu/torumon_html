@@ -15,7 +15,7 @@ color: $color-font-white;
 ブレイクポイントに関して記述しているファイル
  */
 body {
-  font-family: '游ゴシック体', YuGothic, '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Meiryo',sans-serif;
+  font-family: Arial,'游ゴシック体', YuGothic, '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Meiryo',sans-serif;
   font-weight: 400;
 }
 
@@ -27,7 +27,7 @@ main {
   display: none;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1024px) {
   .is-pc {
     display: none;
   }
@@ -37,7 +37,7 @@ main {
   display: none;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1024px) {
   .is-sp {
     display: block;
   }
@@ -83,12 +83,6 @@ HeaderのSCSSに関して記述しているファイル
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1080px) {
-  .header > .container {
-    padding: 36px 16px;
-  }
-}
-
 .header > .container > .nav {
   background-color: #000000;
   padding: 10px 16px 3px 182px;
@@ -126,11 +120,14 @@ HeaderのSCSSに関して記述しているファイル
 }
 
 .header > .container > .main-menu {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  max-width: 1200px;
-  padding: 4px 56px 3px 139px;
+  max-width: 1224px;
+  padding: 4px 40px 3px;
   margin: 0 auto;
 }
 
@@ -138,8 +135,9 @@ HeaderのSCSSに関して記述しているファイル
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  max-width: 467px;
+  max-width: 600px;
   width: 100%;
+  margin-right: 24px;
 }
 
 .header > .container > .main-menu > .left > .logo {
@@ -159,7 +157,8 @@ HeaderのSCSSに関して記述しているファイル
 }
 
 .header > .container > .main-menu > .left > .account > .welcome > .name {
-  padding: 0 8px;
+  padding: 0 3px;
+  display: inline-block;
 }
 
 .header > .container > .main-menu > .left > .account > .data {
@@ -179,17 +178,26 @@ HeaderのSCSSに関して記述しているファイル
   border-radius: 100px;
   -webkit-box-shadow: 3px 3px 4px #B3B3B3 inset;
   box-shadow: 3px 3px 4px #B3B3B3 inset;
-  color: #E61717;
+  min-width: 80px;
   font-size: 18px;
   font-weight: bold;
+  text-align: center;
   padding: 3px 12px 3px;
+}
+
+.header > .container > .main-menu > .left > .status.pro {
+  color: #E61717;
+}
+
+.header > .container > .main-menu > .left > .status.beginner {
+  color: #29B43D;
 }
 
 .header > .container > .main-menu > .right > .buttons {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-right: 43px;
+  margin-right: 14px;
 }
 
 .header > .container > .main-menu > .right > .buttons > .button {
@@ -257,6 +265,12 @@ HeaderのSCSSに関して記述しているファイル
   opacity: 0.5;
 }
 
+.header > .container > .main-menu > .right > .members-button {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 .header > .container > .main-menu > .right > .members-button > .button {
   -ms-flex-item-align: center;
   align-self: center;
@@ -290,56 +304,106 @@ HeaderのSCSSに関して記述しているファイル
   opacity: 0.5;
 }
 
-.header > .bars-sp {
-  height: 20px;
-  width: 30px;
-  z-index: 9999999999;
-  position: fixed;
-  right: 21px;
-  top: 29px;
+.header > .sp-menu {
+  background-color: #ffffff;
+  padding: 16px 20px 6px;
 }
 
-.header > .bars-sp > .bar {
-  background: #000000;
-  display: block;
-  height: 2px;
-  position: absolute;
-  -webkit-transition: -webkit-transform .3s;
-  transition: -webkit-transform .3s;
-  transition: transform .3s;
-  transition: transform .3s, -webkit-transform .3s;
+.header > .sp-menu > .container {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.header > .sp-menu > .container > .left {
+  max-width: 130px;
+  width: 100%;
+  margin-left: 6px;
+}
+
+.header > .sp-menu > .container > .left > .logo {
   width: 100%;
 }
 
-.header > .bars-sp > .bar:first-child.active {
-  top: 8px;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+.header > .sp-menu > .container > .right > .account > .welcome {
+  font-size: 9px;
 }
 
-.header > .bars-sp > .bar:nth-child(2) {
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+.header > .sp-menu > .container > .right > .account > .welcome > .name {
+  font-size: 10px;
+  font-weight: bold;
 }
 
-.header > .bars-sp > .bar:nth-child(2).active {
-  display: none;
+.header > .sp-menu > .container > .right > .account > .point {
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #E5E5E5;
+  border-radius: 50px;
+  padding: 5px 35px 5px 4px;
 }
 
-.header > .bars-sp > .bar:last-child {
-  bottom: 0;
+.header > .sp-menu > .container > .right > .account > .point > .icon {
+  width: 16px;
+  margin-right: 2px;
 }
 
-.header > .bars-sp > .bar:last-child.active {
-  top: 8px;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+.header > .sp-menu > .container > .right > .account > .point > .amount {
+  color: #FF8C19;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  line-height: 15px;
+  font-weight: bold;
 }
 
-.header > .sp-menu {
-  display: none;
-  position: fixed;
+.header > .sp-menu > .container > .right > .account > .point > .link {
+  display: block;
+  position: absolute;
+  right: -5px;
+}
+
+.header > .sp-menu > .container > .right > .account > .point > .link > .icon {
+  width: 33px;
+}
+
+.header > .sp-menu > .container > .right > .myitem {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.header > .sp-menu > .container > .right > .myitem > .item {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header > .sp-menu > .container > .right > .myitem > .item > .icon {
+  width: 12px;
+  margin-right: 4px;
+}
+
+.header > .sp-menu > .container > .right > .myitem > .item > .text {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.header > .sp-menu > .container > .right > .myitem > .item > .text > .number {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.header > .sp-menu > .container > .right > .myitem > .item > .text.cart {
+  color: #E64545;
+}
+
+.header > .sp-menu > .container > .right > .myitem > .item > .text.ticket {
+  color: #2C65E5;
+}
+
+.header > .sp-menu > .container > .right > .myitem > .item:first-child {
+  margin-right: 15px;
 }
 
 .footer > .container {
