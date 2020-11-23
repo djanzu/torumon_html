@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.pw-reissue-pre01-page {
+  padding-top: 100px;
+  padding-bottom: 273px;
+}
+
+.pw-reissue-pre01-page > .section-content {
+  padding: 0 16px;
+}
+
+.pw-reissue-pre01-page > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 14px 14px 41px;
+}
+
+.pw-reissue-pre01-page > .section-content > .container > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  padding-bottom: 11px;
+  margin-bottom: 41px;
+}
+
+.pw-reissue-pre01-page > .section-content > .container > .form > .input-container {
+  border: 1px solid #BFBFBF;
+  max-width: 508px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding: 21px 72px;
+}
+
+.pw-reissue-pre01-page > .section-content > .container > .form > .input-container > .text,
+.pw-reissue-pre01-page > .section-content > .container > .form > .input-container > .notice {
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.pw-reissue-pre01-page > .section-content > .container > .form > .input-container > .text {
+  margin-bottom: 27px;
+}
+
+.pw-reissue-pre01-page > .section-content > .container > .form > .input-container > .input-area {
+  margin-bottom: 25px;
+}
+
+.pw-reissue-pre01-page > .section-content > .container > .form > .input-container > .input-area > .label {
+  font-size: 11px;
+  margin-right: 4px;
+}
+
+.pw-reissue-pre01-page > .section-content > .container > .form > .input-container > .input-area > .input {
+  background-color: #ffffff;
+  border: 1px solid #BFBFBF;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 260px;
+  height: 22px;
+  font-size: 11px;
+  padding: 5px 13px;
+}
+
+.pw-reissue-pre01-page > .section-content > .container > .form > .button {
+  text-align: center;
+}
+
+.pw-reissue-pre01-page > .section-content > .container > .form > .button > .link {
+  background-color: #ff66cc;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2px 0 #B2B2B2;
+  box-shadow: 0 2px 0 #B2B2B2;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 9px 30px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.pw-reissue-pre01-page > .section-content > .container > .form > .button > .link:hover {
+  opacity: 0.5;
+}

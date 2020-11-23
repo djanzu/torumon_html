@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.news-index-page {
+  padding-top: 130px;
+  padding-bottom: 26px;
+}
+
+.news-index-page > .section-content {
+  padding: 0 16px;
+}
+
+.news-index-page > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px 15px 15px;
+}
+
+.news-index-page > .section-content > .container > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  padding-bottom: 11px;
+  margin-bottom: 21px;
+}
+
+.news-index-page > .section-content > .container > .tags {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #999999;
+  margin-bottom: 18px;
+}
+
+.news-index-page > .section-content > .container > .tags > .tag {
+  background-color: #cccccc;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid #999999;
+  display: block;
+  width: calc(100%/3);
+  color: #000000;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  float: left;
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  order: -1;
+  padding: 8px 0 10px;
+  cursor: pointer;
+}
+
+.news-index-page > .section-content > .container > .tags > .tag.is-active {
+  background-color: #ffffff;
+  border: 1px solid #999999;
+}
+
+.news-index-page > .section-content > .container > .news-list > .news {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  max-width: 646px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px 12px 8px;
+}
+
+.news-index-page > .section-content > .container > .news-list > .news > .text {
+  font-size: 17px;
+  line-height: 24px;
+  word-break: break-all;
+  margin-bottom: 18px;
+}
+
+.news-index-page > .section-content > .container > .news-list > .news > .info {
+  position: relative;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 4px dotted #ff66cc;
+  padding-top: 8px;
+}
+
+.news-index-page > .section-content > .container > .news-list > .news > .info > .tag {
+  border-radius: 50px;
+  width: 118px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.news-index-page > .section-content > .container > .news-list > .news > .info > .tag.item {
+  background-color: #ff66cc;
+}
+
+.news-index-page > .section-content > .container > .news-list > .news > .info > .tag.important {
+  background-color: #F25555;
+}
+
+.news-index-page > .section-content > .container > .news-list > .news > .info > .date {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.news-index-page > .section-content > .container > .news-list > .news > .info > .new {
+  position: absolute;
+  left: 0;
+  color: #FF2D1A;
+  font-size: 13px;
+  font-weight: bold;
+  border-bottom: 2px solid #FF2D1A;
+}

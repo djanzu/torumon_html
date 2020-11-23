@@ -1,0 +1,268 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.mypage-edit-page {
+  padding-top: 100px;
+  padding-bottom: 78px;
+}
+
+.mypage-edit-page > .container {
+  max-width: 912px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.mypage-edit-page > .container > .sidebar {
+  max-width: 192px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.mypage-edit-page > .container > .sidebar > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0 11px;
+}
+
+.mypage-edit-page > .container > .sidebar > .container > .pages > .page {
+  border-bottom: 3px solid #ff66cc;
+}
+
+.mypage-edit-page > .container > .sidebar > .container > .pages > .page > .link {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 7px 5px;
+}
+
+.mypage-edit-page > .container > .sidebar > .container > .pages > .page > .link > .icon {
+  width: 19px;
+  margin-right: 5px;
+}
+
+.mypage-edit-page > .container > .sidebar > .container > .pages > .page > .link > .text {
+  color: #000000;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: -0.1em;
+  padding-top: 3px;
+}
+
+.mypage-edit-page > .container > .sidebar > .container > .pages > .page > .link:hover {
+  opacity: 0.5;
+}
+
+.mypage-edit-page > .container > .sidebar > .container > .pages > .page > .link.active {
+  background-color: #E5E5E5;
+  border-radius: 50px;
+}
+
+.mypage-edit-page > .container > .sidebar > .container > .pages > .page:last-child {
+  border: 0;
+}
+
+.mypage-edit-page > .container > .section-content {
+  width: 100%;
+}
+
+.mypage-edit-page > .container > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 14px 14px 38px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form {
+  position: relative;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  padding-bottom: 11px;
+  margin-bottom: 20px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .button-basechange {
+  position: absolute;
+  top: -5px;
+  right: 0;
+  background-color: #ff66cc;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2px 0 #B2B2B2;
+  box-shadow: 0 2px 0 #B2B2B2;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 6px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table {
+  border: 1px solid #BFBFBF;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 52px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell {
+  border-bottom: 1px solid #BFBFBF;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label {
+  border-right: 1px solid #BFBFBF;
+  width: 165px;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: left;
+  padding: 13px 12px 12px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 11px;
+  padding: 8px 12px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .input,
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .select {
+  border: 1px solid #BFBFBF;
+  border-radius: 0;
+  width: 231px;
+  font-size: 11px;
+  padding: 5px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .radio {
+  margin-top: -2px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .button {
+  background-color: #ff66cc;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2px 0 #B2B2B2;
+  box-shadow: 0 2px 0 #B2B2B2;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 6px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .button:hover {
+  opacity: 0.5;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .button.delete {
+  background-color: #707070;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .label.address {
+  width: 224px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .label.name {
+  width: 152px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .label.tel {
+  width: 148px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .label.gender {
+  width: 50px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .label.button {
+  width: 75px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .data {
+  border-right: 1px solid #BFBFBF;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .data.address {
+  width: 224px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .data.address > .input {
+  width: 100%;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .data.name {
+  width: 152px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .data.name > .input {
+  width: 100%;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .data.tel {
+  width: 148px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .data.tel > .input {
+  width: 100%;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .data.gender {
+  width: 50px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .data.button {
+  width: 75px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .data.button > .button {
+  width: 100%;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .data > .input {
+  padding: 5px 3px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .data > .input.zip {
+  width: 70px;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.read-area > .data > .input {
+  border: none;
+}

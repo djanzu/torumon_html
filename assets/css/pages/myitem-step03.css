@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.myitem-step03-page {
+  padding-top: 100px;
+  padding-bottom: 78px;
+}
+
+.myitem-step03-page > .container {
+  max-width: 912px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.myitem-step03-page > .container > .sidebar {
+  max-width: 192px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.myitem-step03-page > .container > .sidebar > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0 11px;
+}
+
+.myitem-step03-page > .container > .sidebar > .container > .pages > .page {
+  border-bottom: 3px solid #ff66cc;
+}
+
+.myitem-step03-page > .container > .sidebar > .container > .pages > .page > .link {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 7px 5px;
+}
+
+.myitem-step03-page > .container > .sidebar > .container > .pages > .page > .link > .icon {
+  width: 19px;
+  margin-right: 5px;
+}
+
+.myitem-step03-page > .container > .sidebar > .container > .pages > .page > .link > .text {
+  color: #000000;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: -0.1em;
+  padding-top: 3px;
+}
+
+.myitem-step03-page > .container > .sidebar > .container > .pages > .page > .link:hover {
+  opacity: 0.5;
+}
+
+.myitem-step03-page > .container > .sidebar > .container > .pages > .page > .link.active {
+  background-color: #E5E5E5;
+  border-radius: 50px;
+}
+
+.myitem-step03-page > .container > .sidebar > .container > .pages > .page:last-child {
+  border: 0;
+}
+
+.myitem-step03-page > .container > .section-content {
+  width: 100%;
+}
+
+.myitem-step03-page > .container > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 14px 14px 27px;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  padding-bottom: 11px;
+  margin-bottom: 20px;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form {
+  position: relative;
+  margin-bottom: 21px;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .box-title {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .table {
+  border: 1px solid #BFBFBF;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 34px;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .table > tbody > .cell {
+  border-bottom: 1px solid #BFBFBF;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label {
+  border-right: 1px solid #BFBFBF;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: left;
+  padding: 13px 12px 12px;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 11px;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .text {
+  font-size: 11px;
+  margin-right: 78px;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .button {
+  max-width: 97px;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .button > .link > .img {
+  width: 100%;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .radio {
+  margin-top: -1px;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .radio.point {
+  margin-left: 32px;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .select {
+  margin-right: 24px;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .notice {
+  color: #E61717;
+  font-size: 11px;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .buttons {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .buttons > .button {
+  background-color: transparent;
+  border: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .buttons > .button.back {
+  margin: 20px;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .buttons > .button.back > .link {
+  background-color: #666666;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 8px 14px 6px;
+}
+
+.myitem-step03-page > .container > .section-content > .container > .form > .buttons > .button:hover {
+  opacity: 0.5;
+}

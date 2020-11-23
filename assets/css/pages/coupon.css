@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.coupon-page {
+  padding-top: 100px;
+  padding-bottom: 78px;
+}
+
+.coupon-page > .container {
+  max-width: 912px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.coupon-page > .container > .sidebar {
+  max-width: 192px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.coupon-page > .container > .sidebar > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0 11px;
+}
+
+.coupon-page > .container > .sidebar > .container > .pages > .page {
+  border-bottom: 3px solid #ff66cc;
+}
+
+.coupon-page > .container > .sidebar > .container > .pages > .page > .link {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 7px 5px;
+}
+
+.coupon-page > .container > .sidebar > .container > .pages > .page > .link > .icon {
+  width: 19px;
+  margin-right: 5px;
+}
+
+.coupon-page > .container > .sidebar > .container > .pages > .page > .link > .text {
+  color: #000000;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: -0.1em;
+  padding-top: 3px;
+}
+
+.coupon-page > .container > .sidebar > .container > .pages > .page > .link:hover {
+  opacity: 0.5;
+}
+
+.coupon-page > .container > .sidebar > .container > .pages > .page > .link.active {
+  background-color: #E5E5E5;
+  border-radius: 50px;
+}
+
+.coupon-page > .container > .sidebar > .container > .pages > .page:last-child {
+  border: 0;
+}
+
+.coupon-page > .container > .section-content {
+  width: 100%;
+}
+
+.coupon-page > .container > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 14px 14px 38px;
+}
+
+.coupon-page > .container > .section-content > .container > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  padding-bottom: 11px;
+  margin-bottom: 20px;
+}
+
+.coupon-page > .container > .section-content > .container > .text {
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 8px;
+}
+
+.coupon-page > .container > .section-content > .container > .form > .table {
+  border: 1px solid #BFBFBF;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.coupon-page > .container > .section-content > .container > .form > .table > tbody > .cell {
+  border-bottom: 1px solid #BFBFBF;
+}
+
+.coupon-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label {
+  border-right: 1px solid #BFBFBF;
+  width: 165px;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: left;
+  padding: 13px 12px 12px;
+}
+
+.coupon-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data {
+  font-size: 11px;
+  padding: 8px 12px;
+}
+
+.coupon-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .input {
+  border: 1px solid #BFBFBF;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  font-size: 11px;
+  padding: 5px 10px;
+}
+
+.coupon-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .error {
+  color: #E61717;
+  font-size: 11px;
+}
+
+.coupon-page > .container > .section-content > .container > .form > .button {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.coupon-page > .container > .section-content > .container > .form > .button > .link {
+  background-color: #35D3CF;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2px 0 #B2B2B2;
+  box-shadow: 0 2px 0 #B2B2B2;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 9px 30px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.coupon-page > .container > .section-content > .container > .form > .button > .link:hover {
+  opacity: 0.5;
+}

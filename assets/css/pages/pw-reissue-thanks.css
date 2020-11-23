@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.pw-thanks-page {
+  padding-top: 100px;
+  padding-bottom: 433px;
+}
+
+.pw-thanks-page > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 14px 15px 38px;
+}
+
+.pw-thanks-page > .section-content > .container > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  padding-bottom: 11px;
+  margin-bottom: 14px;
+}
+
+.pw-thanks-page > .section-content > .container > .text {
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.pw-thanks-page > .section-content > .container > .button {
+  text-align: center;
+}
+
+.pw-thanks-page > .section-content > .container > .button > .link {
+  background-color: #ff66cc;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2px 0 #B2B2B2;
+  box-shadow: 0 2px 0 #B2B2B2;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 9px 20px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.pw-thanks-page > .section-content > .container > .button > .link:hover {
+  opacity: 0.5;
+}

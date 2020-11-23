@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.signup-page {
+  padding-top: 100px;
+  padding-bottom: 473px;
+}
+
+.signup-page > .section-content {
+  padding: 0 16px;
+}
+
+.signup-page > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 14px 14px 35px;
+}
+
+.signup-page > .section-content > .container > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  padding-bottom: 11px;
+  margin-bottom: 35px;
+}
+
+.signup-page > .section-content > .container > .form > .input-container {
+  border: 1px solid #BFBFBF;
+  max-width: 508px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 18px 28px 35px;
+}
+
+.signup-page > .section-content > .container > .form > .input-container > .input-list > .input-area {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.signup-page > .section-content > .container > .form > .input-container > .input-list > .input-area:last-child {
+  margin-bottom: 25px;
+}
+
+.signup-page > .section-content > .container > .form > .input-container > .input-list > .input-area > .label {
+  min-width: 96px;
+  font-size: 11px;
+  margin-right: 16px;
+}
+
+.signup-page > .section-content > .container > .form > .input-container > .input-list > .input-area > .input {
+  border: 1px solid #BFBFBF;
+  border-radius: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 11px;
+  padding: 5px 8px;
+  margin-right: 10px;
+}
+
+.signup-page > .section-content > .container > .form > .input-container > .input-list > .input-area > .input.name {
+  width: 260px;
+}
+
+.signup-page > .section-content > .container > .form > .input-container > .input-list > .input-area > .input.password {
+  width: 131px;
+}
+
+.signup-page > .section-content > .container > .form > .input-container > .input-list > .input-area > .notice {
+  font-size: 11px;
+}
+
+.signup-page > .section-content > .container > .form > .input-container > .input-list > .error {
+  margin-left: 111px;
+}
+
+.signup-page > .section-content > .container > .form > .input-container > .input-list > .error > .text {
+  color: #E61717;
+  font-size: 11px;
+  margin-bottom: 9px;
+}
+
+.signup-page > .section-content > .container > .form > .input-container > .privacy-check {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.signup-page > .section-content > .container > .form > .input-container > .privacy-check > .checkbox {
+  margin-right: 15px;
+}
+
+.signup-page > .section-content > .container > .form > .input-container > .privacy-check > .text {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.signup-page > .section-content > .container > .form > .input-container > .privacy-check > .text > .link {
+  color: #2284E5;
+}
+
+.signup-page > .section-content > .container > .form > .button {
+  display: block;
+  background-color: transparent;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.signup-page > .section-content > .container > .form > .button > .link {
+  background-color: #35D3CF;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2px 0 #B2B2B2;
+  box-shadow: 0 2px 0 #B2B2B2;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 9px 30px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.signup-page > .section-content > .container > .form > .button > .link:hover {
+  opacity: 0.5;
+}

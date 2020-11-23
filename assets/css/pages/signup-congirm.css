@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.signup-confirm-page {
+  padding-top: 100px;
+  padding-bottom: 473px;
+}
+
+.signup-confirm-page > .section-content {
+  padding: 0 16px;
+}
+
+.signup-confirm-page > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 14px 14px 66px;
+}
+
+.signup-confirm-page > .section-content > .container > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  padding-bottom: 11px;
+  margin-bottom: 15px;
+}
+
+.signup-confirm-page > .section-content > .container > .text {
+  font-size: 13px;
+  line-height: 19px;
+}

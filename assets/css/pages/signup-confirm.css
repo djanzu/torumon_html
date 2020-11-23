@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.signup-confirm-page {
+  padding-top: 100px;
+  padding-bottom: 473px;
+}
+
+.signup-confirm-page > .section-content {
+  padding: 0 16px;
+}
+
+.signup-confirm-page > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 14px 14px 35px;
+}
+
+.signup-confirm-page > .section-content > .container > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  padding-bottom: 11px;
+  margin-bottom: 35px;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .input-container {
+  border: 1px solid #BFBFBF;
+  max-width: 508px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 18px 28px 5px;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .input-container > .input-list > .input-area {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .input-container > .input-list > .input-area:last-child {
+  margin-bottom: 25px;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .input-container > .input-list > .input-area > .label {
+  min-width: 96px;
+  font-size: 11px;
+  margin-right: 43px;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .input-container > .input-list > .input-area > .input {
+  border: none;
+  border-radius: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  font-size: 11px;
+  padding: 5px 8px;
+  margin-right: 10px;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .input-container > .input-list > .input-area > .notice {
+  font-size: 11px;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .input-container > .input-list > .error {
+  margin-left: 111px;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .input-container > .input-list > .error > .text {
+  color: #E61717;
+  font-size: 11px;
+  margin-bottom: 9px;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .input-container > .privacy-check {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .input-container > .privacy-check > .checkbox {
+  margin-right: 15px;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .input-container > .privacy-check > .text {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .input-container > .privacy-check > .text > .link {
+  color: #2284E5;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .button {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .button > .link {
+  border: 0;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 2px 0px #B2B2B2;
+  box-shadow: 0px 2px 0px #B2B2B2;
+  width: 101px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 13px 12px 12px;
+  margin: 0 13px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .button > .link.back {
+  background-color: #666666;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .button > .link.back > a {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .button > .link.send {
+  background-color: #ff66cc;
+}
+
+.signup-confirm-page > .section-content > .container > .form > .button > .link:hover {
+  opacity: 0.5;
+}

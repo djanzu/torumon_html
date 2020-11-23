@@ -1,0 +1,255 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.myitem-page {
+  padding-top: 100px;
+  padding-bottom: 78px;
+}
+
+.myitem-page > .container {
+  max-width: 912px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.myitem-page > .container > .sidebar {
+  max-width: 192px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.myitem-page > .container > .sidebar > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0 11px;
+}
+
+.myitem-page > .container > .sidebar > .container > .pages > .page {
+  border-bottom: 3px solid #ff66cc;
+}
+
+.myitem-page > .container > .sidebar > .container > .pages > .page > .link {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 7px 5px;
+}
+
+.myitem-page > .container > .sidebar > .container > .pages > .page > .link > .icon {
+  width: 19px;
+  margin-right: 5px;
+}
+
+.myitem-page > .container > .sidebar > .container > .pages > .page > .link > .text {
+  color: #000000;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: -0.1em;
+  padding-top: 3px;
+}
+
+.myitem-page > .container > .sidebar > .container > .pages > .page > .link:hover {
+  opacity: 0.5;
+}
+
+.myitem-page > .container > .sidebar > .container > .pages > .page > .link.active {
+  background-color: #E5E5E5;
+  border-radius: 50px;
+}
+
+.myitem-page > .container > .sidebar > .container > .pages > .page:last-child {
+  border: 0;
+}
+
+.myitem-page > .container > .section-content {
+  width: 100%;
+}
+
+.myitem-page > .container > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 14px 14px 27px;
+}
+
+.myitem-page > .container > .section-content > .container > .title {
+  border-bottom: 3px solid #ff66cc;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 19px;
+  padding-bottom: 11px;
+  margin-bottom: 20px;
+}
+
+.myitem-page > .container > .section-content > .container > .form {
+  position: relative;
+  margin-bottom: 21px;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .box-title {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table {
+  border: 1px solid #BFBFBF;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell {
+  border-bottom: 1px solid #BFBFBF;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label {
+  border-right: 1px solid #BFBFBF;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: left;
+  padding: 13px 12px 12px;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label.check, .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label.number {
+  width: 39px;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label.item {
+  width: 445px;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label.status {
+  width: 123px;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label.radio {
+  width: 80px;
+  text-align: center;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label.name, .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label.address {
+  width: 285px;
+  text-align: center;
+  padding: 6px;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data {
+  border-right: 1px solid #BFBFBF;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.check, .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.number {
+  width: 39px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.item {
+  width: 445px;
+  padding: 6px;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.status {
+  width: 123px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.radio {
+  width: 80px;
+  text-align: center;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.default-address {
+  text-align: center;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.name, .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.address {
+  width: 285px;
+  text-align: center;
+  padding: 14px 6px;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .thumbnail {
+  max-width: 58px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .text,
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .date {
+  font-size: 11px;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .text > .title {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 11px;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .status-text {
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: tb-lr;
+  writing-mode: vertical-lr;
+  margin: 0 auto;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .label {
+  border-radius: 3px;
+  width: 62px;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 6px;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .label.unshipped {
+  background-color: #F24949;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .label.prepared {
+  background-color: #FF9100;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .label.onshipping {
+  background-color: #B2B2B2;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .button {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .button > .link {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.myitem-page > .container > .section-content > .container > .form > .button > .link:hover {
+  opacity: 0.5;
+}

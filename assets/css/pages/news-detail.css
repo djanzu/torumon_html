@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*
+変数関係をまとめたファイル
+ */
+/*
+色に関して記述しているファイル
+
+例：
+color: $color-font-white;
+ */
+/*
+ブレイクポイントに関して記述しているファイル
+ */
+.news-detail-page {
+  padding-top: 130px;
+  padding-bottom: 26px;
+}
+
+.news-detail-page > .section-content {
+  padding: 0 16px;
+}
+
+.news-detail-page > .section-content > .container {
+  border: 3px solid #ff66cc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px 28px 15px;
+}
+
+.news-detail-page > .section-content > .container > .info {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.news-detail-page > .section-content > .container > .info > .tag {
+  border-radius: 50px;
+  width: 118px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.news-detail-page > .section-content > .container > .info > .tag.item {
+  background-color: #ff66cc;
+}
+
+.news-detail-page > .section-content > .container > .info > .tag.important {
+  background-color: #F25555;
+}
+
+.news-detail-page > .section-content > .container > .info > .date {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.news-detail-page > .section-content > .container > .title {
+  border-bottom: 4px dotted #ff66cc;
+  font-size: 23px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.news-detail-page > .section-content > .container > .img {
+  max-width: 611px;
+  margin: 0 auto;
+  margin-bottom: 26px;
+}
+
+.news-detail-page > .section-content > .container > .img > .item {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.news-detail-page > .section-content > .container > .text {
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.news-detail-page > .section-content > .container > .button {
+  text-align: center;
+}
+
+.news-detail-page > .section-content > .container > .button > .link {
+  color: #000000;
+  font-size: 11px;
+  text-decoration: underline;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.news-detail-page > .section-content > .container > .button > .link:hover {
+  opacity: 0.5;
+}
