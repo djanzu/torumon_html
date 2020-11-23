@@ -36,30 +36,4 @@ function search_filter(group) {
       $(listItem).eq(i).addClass(hideClass);
     }
   }
-} //mv slider
-
-
-$(function () {
-  $('.slide').slick({
-    dots: true,
-    autoplay: true,
-    autoplaySpeed: 2500,
-    speed: 300,
-    prevArrow: '<img src="./assets/img/top/prev.svg" class="slide-arrow prev-arrow">',
-    nextArrow: '<img src="./assets/img/top/next.svg" class="slide-arrow next-arrow">'
-  });
-});
-$(function () {
-  $('.sp-slide').slick({
-    dots: false,
-    autoplay: true,
-    autoplaySpeed: 2500,
-    speed: 300
-  });
-});
-$(function () {
-  $('.recommend.is-sp > .machines').slick({
-    slidesToShow: 2,
-    centerPadding: 20
-  });
-});
+}

@@ -1,5 +1,5 @@
 <footer class="footer">
-  <div class="container">
+  <div class="container is-pc">
     <div class="flex">
       <div class="left flex">
         <ul class="pages news">
@@ -119,5 +119,33 @@
     <p class="copyright">
       ©︎2020 東洋レコーディング株式会社
     </p>
+  </div>
+
+  <div class="container is-sp">
+    <ul class="menus flex">
+      <li class="menu">
+        <a href="/" class="link">
+        <img src="/assets/img/icon_home.svg" alt="" class="icon">
+        <!-- アクティブ時のアイコン -->
+        <!-- <img src="/assets/img/icon_home_active.svg" alt="" class="icon"> -->
+        <p class="text">ホーム</p>
+      </a>
+      </li>
+      <li class="menu">
+        <a href="/" class="link">
+        <img src="/assets/img/icon_mypage.svg" alt="" class="icon">
+        <!-- <img src="/assets/img/icon_mypage_active.svg" alt="" class="icon"> -->
+        <img src="/assets/img/top/notice.png" alt="" class="icon notice">
+        <p class="text">マイページ</p>
+      </a>
+      </li>
+      <li class="menu">
+        <a href="/" class="link">
+        <img src="/assets/img/icon_menu.svg" alt="" class="icon">
+        <!-- <img src="/assets/img/icon_menu_active.svg" alt="" class="icon"> -->
+        <p class="text">メニュー</p>
+      </a>
+      </li>
+    </ul>
   </div>
 </footer>
