@@ -42,22 +42,24 @@
         </li>
 
         <li class="page twitter">
-          <a href="/mypage/" class="link twitter"><img class="icon" src="/assets/img/twitter.png" alt="Twitter"></a>
+          <a href="/mypage/" class="link twitter"><img class="icon" src="../assets/img/twitter.png" alt="Twitter"></a>
         </li>
 
         <li class="page facebook">
-          <a href="/contact/" class="link facebook"><img class="icon" src="/assets/img/facebook.png" alt="Facebook"></a>
+          <a href="/contact/" class="link facebook"><img class="icon" src="../assets/img/facebook.png" alt="Facebook"></a>
         </li>
       </ul>
     </nav>
     <div class="main-menu flex">
       <div class="left flex">
-        <img src="/assets/img/logo.png" alt="トルモンランド" class="logo">
+      <a href="/" class="link">
+        <img src="../assets/img/logo.png" alt="トルモンランド" class="logo">
+        </a>
         <div class="account">
-          <p class="welcome">ようこそ<span class="name">このほすj</span>さん！</p>
+          <p class="welcome">ようこそ<span class="name">最大10文字入りますよ</span><span class="block">さん！</span></p>
           <p class="data">総獲得数<span class="number">99</span>個</p>
         </div>
-        <p class="status pro">強者</p>
+        <p class="status pro">最大10文字入りますよ</p>
         <!-- 初心者の場合 -->
         <!-- <p class="status beginner">初心者</p> -->
       </div>
@@ -65,24 +67,24 @@
         <ul class="buttons flex">
           <li class="button buy">
             <a href="" class="link">
-              <img src="/assets/img/point_buy.svg" alt="ポイント購入" class="button">
+              <img src="../assets/img/point_buy.svg" alt="ポイント購入" class="button">
             </a>
           </li>
           <li class="button">
             <a href="" class="link flex cart">
-              <img src="/assets/img/cart.svg" alt="カート" class="icon cart">
+              <img src="../assets/img/cart.svg" alt="カート" class="icon cart">
               <p class="number cart">0</p>
             </a>
           </li>
           <li class="button">
             <a href="" class="link flex point">
-              <img src="/assets/img/point.svg" alt="ポイント" class="icon point">
+              <img src="../assets/img/point.svg" alt="ポイント" class="icon point">
               <p class="number point">0</p>
             </a>
           </li>
           <li class="button">
             <a href="" class="link flex ticket">
-              <img src="/assets/img/ticket.svg" alt="送料freeチケット" class="icon ticket">
+              <img src="../assets/img/ticket.svg" alt="送料freeチケット" class="icon ticket">
               <p class="number ticket">0</p>
             </a>
           </li>
@@ -92,21 +94,21 @@
           <!-- ログイン -->
           <!-- <li class="button">
             <a href="" class="link">
-              <img src="/assets/img/login.svg" alt="ログイン" class="img">ログイン
+              <img src="../assets/img/login.svg" alt="ログイン" class="img">ログイン
             </a>
           </li> -->
 
           <!-- 会員登録 -->
           <!-- <li class="button">
             <a href="" class="link">
-              <img src="/assets/img/signup.svg" alt="会員登録" class="img">会員登録
+              <img src="../assets/img/signup.svg" alt="会員登録" class="img">会員登録
             </a>
           </li> -->
 
           <!-- ログアウト -->
           <li class="button">
             <a href="" class="link">
-              <img src="/assets/img/logout.svg" alt="ログイン" class="img">ログアウト
+              <img src="../assets/img/logout.svg" alt="ログイン" class="img">ログアウト
             </a>
           </li>
         </ul>
@@ -117,26 +119,28 @@
   <div class="sp-menu is-sp">
     <div class="container flex">
       <div class="left">
-        <img src="/assets/img/logo.png" alt="トルモンランド" class="logo">
+      <a href="/" class="link">
+        <img src="../assets/img/logo.png" alt="トルモンランド" class="logo">
+        </a>
       </div>
 
       <div class="right">
         <div class="account flex">
           <p class="welcome"><span class="name">このほすj</span>さん！</p>
           <div class="point flex">
-            <img src="/assets/img/point.svg" alt="P" class="icon">
+            <img src="../assets/img/point.svg" alt="P" class="icon">
             <p class="amount"><span class="number">100,000</span>pt</p>
-            <a href="/mypage/point.php" class="link"><img src="/assets/img/point_plus.png" alt="" class="icon"></a>
+            <a href="/mypage/point.php" class="link"><img src="../assets/img/point_plus.png" alt="" class="icon"></a>
           </div>
         </div>
 
         <ul class="myitem flex">
             <li class="item flex">
-              <img src="/assets/img/cart.svg" alt="カート" class="icon cart">
+              <img src="../assets/img/cart.svg" alt="カート" class="icon cart">
               <p class="text cart">未発送<span class="number">99</span>個</p>
             </li>
             <li class="item flex">
-              <img src="/assets/img/ticket.svg" alt="送料freeチケット" class="icon ticket">
+              <img src="../assets/img/ticket.svg" alt="送料freeチケット" class="icon ticket">
               <p class="text ticket">無料配送<span class="number">1</span>枚</p>
             </li>
           </ul>
