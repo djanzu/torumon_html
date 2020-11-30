@@ -16,8 +16,53 @@ color: $color-font-white;
   padding-bottom: 26px;
 }
 
+@media screen and (max-width: 768px) {
+  .news-detail-page {
+    padding-top: 63px;
+    padding-bottom: 66px;
+  }
+}
+
 .news-detail-page > .section-content {
   padding: 0 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .news-detail-page > .section-content {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news-detail-page > .section-content > .page-title {
+    position: relative;
+    background-color: #ff66cc;
+    padding: 10px 0 8px;
+    margin-bottom: 11px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news-detail-page > .section-content > .page-title > .link {
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    line-height: 19px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news-detail-page > .section-content > .page-title > .link > .icon {
+    position: absolute;
+    top: 50%;
+    left: 22px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 9px;
+  }
 }
 
 .news-detail-page > .section-content > .container {
@@ -27,6 +72,13 @@ color: $color-font-white;
   max-width: 700px;
   margin: 0 auto;
   padding: 20px 28px 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .news-detail-page > .section-content > .container {
+    padding: 4px 13px;
+    margin: 0 13px;
+  }
 }
 
 .news-detail-page > .section-content > .container > .info {
@@ -71,10 +123,27 @@ color: $color-font-white;
   padding-bottom: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .news-detail-page > .section-content > .container > .title {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 0 12px 10px;
+  }
+}
+
 .news-detail-page > .section-content > .container > .img {
   max-width: 611px;
   margin: 0 auto;
   margin-bottom: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .news-detail-page > .section-content > .container > .img {
+    max-width: 300px;
+    margin-bottom: 15px;
+  }
 }
 
 .news-detail-page > .section-content > .container > .img > .item {
@@ -87,6 +156,15 @@ color: $color-font-white;
   font-size: 17px;
   line-height: 24px;
   margin-bottom: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .news-detail-page > .section-content > .container > .text {
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 24px;
+    padding: 0 12px;
+  }
 }
 
 .news-detail-page > .section-content > .container > .button {

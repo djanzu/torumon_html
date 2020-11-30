@@ -26,6 +26,11 @@
 <body><?php include(dirname(__FILE__).'/../header.php');?>
   <main class="news-detail-page">
     <section class="section-content">
+    <h2 class="page-title is-xs">
+          <a href="/menu/" class="link">
+            <img src="../assets/img/icon_arrow.svg" alt="戻る" class="icon">
+            お知らせ詳細</a>
+        </h2>
       <div class="container">
         <div class="info flex">
           <p class="tag item">景品情報</p>

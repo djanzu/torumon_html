@@ -11,13 +11,44 @@ color: $color-font-white;
 /*
 ブレイクポイントに関して記述しているファイル
  */
+@media screen and (max-width: 768px) {
+  .header {
+    display: none;
+  }
+}
+
 .login-page {
-  padding-top: 100px;
+  padding-top: 130px;
   padding-bottom: 273px;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page {
+    padding-top: 0;
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-mv {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-mv > .container > .img {
+    width: 100%;
+  }
 }
 
 .login-page > .section-content {
   padding: 0 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-content {
+    padding: 0;
+  }
 }
 
 .login-page > .section-content > .container {
@@ -27,6 +58,12 @@ color: $color-font-white;
   max-width: 700px;
   margin: 0 auto;
   padding: 14px 14px 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container {
+    border: 0;
+  }
 }
 
 .login-page > .section-content > .container > .title {
@@ -39,10 +76,32 @@ color: $color-font-white;
   margin-bottom: 41px;
 }
 
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .notice {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) and (max-width: 768px) {
+  .login-page > .section-content > .container > .notice > .link {
+    color: #2284E5;
+    font-weight: bold;
+  }
+}
+
 .login-page > .section-content > .container > .form > .input-container {
   border: 1px solid #BFBFBF;
   margin-bottom: 60px;
   padding: 6px;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container {
+    border: 0;
+    margin-bottom: 0;
+  }
 }
 
 .login-page > .section-content > .container > .form > .input-container > .form-item {
@@ -54,6 +113,12 @@ color: $color-font-white;
   align-items: flex-start;
 }
 
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .form-item {
+    display: block;
+  }
+}
+
 .login-page > .section-content > .container > .form > .input-container > .form-item > .left {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -61,14 +126,31 @@ color: $color-font-white;
   margin-right: 10px;
 }
 
-.login-page > .section-content > .container > .form > .input-container > .form-item > .left > .radio-input:checked + label {
-  background-color: blue;
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .form-item > .left {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .form-item > .left > .radio-input {
+    display: none;
+  }
 }
 
 .login-page > .section-content > .container > .form > .input-container > .form-item > .left > .label {
   font-size: 11px;
   margin-left: 6px;
   padding-top: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .form-item > .left > .label {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 0;
+  }
 }
 
 .login-page > .section-content > .container > .form > .input-container > .form-item > .right > .input-area {
@@ -78,11 +160,23 @@ color: $color-font-white;
   margin-bottom: 11px;
 }
 
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .form-item > .right > .input-area {
+    display: block;
+  }
+}
+
 .login-page > .section-content > .container > .form > .input-container > .form-item > .right > .input-area > .label {
   font-size: 11px;
   min-width: 88px;
   text-align: right;
   margin-right: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .form-item > .right > .input-area > .label {
+    display: none;
+  }
 }
 
 .login-page > .section-content > .container > .form > .input-container > .form-item > .right > .input-area > .input {
@@ -95,6 +189,12 @@ color: $color-font-white;
   height: 22px;
   font-size: 11px;
   padding: 5px 13px;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .form-item > .right > .input-area > .input {
+    height: 44px;
+  }
 }
 
 .login-page > .section-content > .container > .form > .input-container > .form-item > .right > .input-area > .input::-webkit-input-placeholder {
@@ -126,8 +226,20 @@ color: $color-font-white;
   width: 335px;
 }
 
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .form-item > .right > .input-area > .input.email {
+    width: 100%;
+  }
+}
+
 .login-page > .section-content > .container > .form > .input-container > .form-item > .right > .input-area > .input.password {
   width: 152px;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .form-item > .right > .input-area > .input.password {
+    width: 100%;
+  }
 }
 
 .login-page > .section-content > .container > .form > .input-container > .form-item > .right > .input-area.password {
@@ -136,6 +248,12 @@ color: $color-font-white;
 
 .login-page > .section-content > .container > .form > .input-container > .form-item > .right > .error {
   margin-left: 95px;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .form-item > .right > .error {
+    margin-left: 0;
+  }
 }
 
 .login-page > .section-content > .container > .form > .input-container > .form-item > .right > .error > .text {
@@ -165,8 +283,56 @@ color: $color-font-white;
   padding: 9px 12px 15px 18px;
 }
 
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .form-item.login {
+    background-color: #ffffff;
+    padding: 0;
+  }
+}
+
 .login-page > .section-content > .container > .form > .input-container > .form-item.signup {
   padding: 19px 12px 7px 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .form-item.signup {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .button {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .button > .link {
+    display: block;
+    background-color: #ff66cc;
+    border: 3px solid #000000;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 56px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .forget {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .input-container > .forget > .link {
+    color: #007EFF;
+    font-size: 12px;
+    font-weight: bold;
+  }
 }
 
 .login-page > .section-content > .container > .form > .button {
@@ -187,6 +353,18 @@ color: $color-font-white;
   padding: 7px 16px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page > .section-content > .container > .form > .button > .link {
+    background-color: #2284E5;
+    border: 3px solid #000000;
+    border-radius: 50px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 20px;
+    padding: 10px 52px;
+  }
 }
 
 .login-page > .section-content > .container > .form > .button > .link:hover {

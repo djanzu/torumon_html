@@ -16,8 +16,20 @@ color: $color-font-white;
   padding-bottom: 26px;
 }
 
+@media screen and (max-width: 768px) {
+  .news-index-page {
+    padding-top: 63px;
+  }
+}
+
 .news-index-page > .section-content {
   padding: 0 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .news-index-page > .section-content {
+    padding: 0;
+  }
 }
 
 .news-index-page > .section-content > .container {
@@ -27,6 +39,13 @@ color: $color-font-white;
   max-width: 700px;
   margin: 0 auto;
   padding: 20px 15px 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .news-index-page > .section-content > .container {
+    border: 0;
+    padding: 0;
+  }
 }
 
 .news-index-page > .section-content > .container > .title {
@@ -39,12 +58,50 @@ color: $color-font-white;
   margin-bottom: 21px;
 }
 
+@media screen and (max-width: 768px) {
+  .news-index-page > .section-content > .container > .title {
+    position: relative;
+    background-color: #ff66cc;
+    padding: 10px 0 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news-index-page > .section-content > .container > .title > .link {
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news-index-page > .section-content > .container > .title > .link > .icon {
+    position: absolute;
+    top: 50%;
+    left: 22px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 9px;
+  }
+}
+
 .news-index-page > .section-content > .container > .tags {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   border-bottom: 1px solid #999999;
   margin-bottom: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .news-index-page > .section-content > .container > .tags {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 0;
+    padding: 0 13px;
+  }
 }
 
 .news-index-page > .section-content > .container > .tags > .tag {
@@ -66,9 +123,29 @@ color: $color-font-white;
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  .news-index-page > .section-content > .container > .tags > .tag {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #ff66cc;
+    font-weight: bold;
+    padding: 12px 6px 10px;
+  }
+}
+
 .news-index-page > .section-content > .container > .tags > .tag.is-active {
   background-color: #ffffff;
   border: 1px solid #999999;
+}
+
+.news-index-page > .section-content > .container > .tags > .tag:first-child, .news-index-page > .section-content > .container > .tags > .tag:nth-child(2) {
+  margin-right: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .news-index-page > .section-content > .container > .news-list {
+    padding: 0 13px;
+  }
 }
 
 .news-index-page > .section-content > .container > .news-list > .news {
@@ -80,14 +157,30 @@ color: $color-font-white;
   padding: 20px 12px 8px;
 }
 
-.news-index-page > .section-content > .container > .news-list > .news > .text {
+@media screen and (max-width: 768px) {
+  .news-index-page > .section-content > .container > .news-list > .news {
+    padding: 10px 10px 8px;
+  }
+}
+
+.news-index-page > .section-content > .container > .news-list > .news > .link > .text {
+  color: #000000;
   font-size: 17px;
   line-height: 24px;
   word-break: break-all;
   margin-bottom: 18px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.news-index-page > .section-content > .container > .news-list > .news > .info {
+@media screen and (max-width: 768px) {
+  .news-index-page > .section-content > .container > .news-list > .news > .link > .text {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+.news-index-page > .section-content > .container > .news-list > .news > .link > .info {
   position: relative;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
@@ -99,7 +192,7 @@ color: $color-font-white;
   padding-top: 8px;
 }
 
-.news-index-page > .section-content > .container > .news-list > .news > .info > .tag {
+.news-index-page > .section-content > .container > .news-list > .news > .link > .info > .tag {
   border-radius: 50px;
   width: 118px;
   color: #ffffff;
@@ -107,26 +200,59 @@ color: $color-font-white;
   font-weight: bold;
   text-align: center;
   margin-right: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.news-index-page > .section-content > .container > .news-list > .news > .info > .tag.item {
+@media screen and (max-width: 768px) {
+  .news-index-page > .section-content > .container > .news-list > .news > .link > .info > .tag {
+    font-size: 10px;
+    font-weight: bold;
+  }
+}
+
+.news-index-page > .section-content > .container > .news-list > .news > .link > .info > .tag.item {
   background-color: #ff66cc;
 }
 
-.news-index-page > .section-content > .container > .news-list > .news > .info > .tag.important {
+.news-index-page > .section-content > .container > .news-list > .news > .link > .info > .tag.important {
   background-color: #F25555;
 }
 
-.news-index-page > .section-content > .container > .news-list > .news > .info > .date {
+.news-index-page > .section-content > .container > .news-list > .news > .link > .info > .date {
+  color: #000000;
   font-size: 15px;
   font-weight: bold;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.news-index-page > .section-content > .container > .news-list > .news > .info > .new {
+@media screen and (max-width: 768px) {
+  .news-index-page > .section-content > .container > .news-list > .news > .link > .info > .date {
+    font-size: 10px;
+  }
+}
+
+.news-index-page > .section-content > .container > .news-list > .news > .link > .info > .new {
   position: absolute;
   left: 0;
   color: #FF2D1A;
   font-size: 13px;
   font-weight: bold;
   border-bottom: 2px solid #FF2D1A;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  .news-index-page > .section-content > .container > .news-list > .news > .link > .info > .new {
+    font-size: 10px;
+  }
+}
+
+.news-index-page > .section-content > .container > .news-list > .news > .link:hover > .text,
+.news-index-page > .section-content > .container > .news-list > .news > .link:hover > .info > .tag,
+.news-index-page > .section-content > .container > .news-list > .news > .link:hover > .date,
+.news-index-page > .section-content > .container > .news-list > .news > .link:hover > .new {
+  opacity: 0.5;
 }

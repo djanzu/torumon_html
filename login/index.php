@@ -32,9 +32,17 @@
   <?php include(dirname(__FILE__).'/../header.php'); ?>
   <main class="login-page">
 
+    <section class="section-mv is-xs">
+      <div class="container">
+        <img src="../assets/img/login/img_mv_sp.png" alt="トルもんランド ログイン" class="img">
+      </div>
+    </section>
+
     <section class="section-content">
       <div class="container">
-        <h1 class="title">ログイン</h1>
+        <h1 class="title is-tab">ログイン</h1>
+        <p class="notice is-xs"><a href="/privacy/index.php#tab03" class="link">利用規約</a>及び<a href="/privacy"
+            class="link">プライバシーポリシー</a>に同意して始める</p>
         <form action="" class="form">
           <div class="input-container">
             <div class="form-item login flex" for="login">
@@ -54,11 +62,22 @@
                 <li class="error">
                   <p class="text">メールアドレスとパスワードの組み合わせが異なるようです</p>
                 </li>
-                <li class="forget">
+                <li class="forget is-tab">
                   <a href="/login/pw-reissue.php" class="link">パスワードを忘れた方はこちら</a>
                 </li>
               </ul>
             </div>
+
+            <!-- スマホ用ボタン -->
+            <div class="button is-xs">
+              <button class="link send" type="submit">
+                ログイン
+              </button>
+            </div>
+              <!-- スマホ用パスワード再発行 -->
+            <p class="forget is-xs">
+                <a href="/login/pw-reissue.php" class="link">パスワードを忘れた方はこちら</a>
+              </p>
 
             <div class="form-item signup flex" for="login">
               <div class="left flex">
@@ -68,15 +87,23 @@
               <ul class="right">
                 <li class="input-area flex">
                   <p class="label">メールアドレス：</p>
-                  <input type="email" class="input email" name="email" value="" placeholder="会員IDとなります">
+                  <input type="email" class="input email is-tab" name="email" value="" placeholder="会員IDとなります">
+                  <input type="email" class="input email is-xs" name="email" value="" placeholder="メールアドレス/会員ID">
                 </li>
               </ul>
             </div>
           </div>
 
-          <div class="button">
+          <div class="button is-tab">
             <button class="link send" type="submit">
               ログイン
+            </button>
+          </div>
+
+             <!-- スマホ用ボタン -->
+          <div class="button is-xs">
+            <button class="link send" type="submit">
+              新規登録
             </button>
           </div>
         </form>

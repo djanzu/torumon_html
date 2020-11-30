@@ -23,6 +23,12 @@ main {
   background-image: url(../../assets/img/back.png);
 }
 
+@media screen and (max-width: 768px) {
+  main {
+    background-image: none;
+  }
+}
+
 .svgs {
   display: none;
 }
@@ -33,12 +39,28 @@ main {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .is-tab {
+    display: none;
+  }
+}
+
 .is-sp {
   display: none;
 }
 
 @media screen and (max-width: 1024px) {
   .is-sp {
+    display: block;
+  }
+}
+
+.is-xs {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .is-xs {
     display: block;
   }
 }
@@ -320,7 +342,7 @@ HeaderのSCSSに関して記述しているファイル
 
 .header > .sp-menu {
   background-color: #ffffff;
-  padding: 16px 20px 6px;
+  padding: 16px 10px 6px;
 }
 
 .header > .sp-menu > .container {
@@ -346,6 +368,12 @@ HeaderのSCSSに関して記述しているファイル
 
 .header > .sp-menu > .container > .left > .link:hover {
   opacity: 0.5;
+}
+
+.header > .sp-menu > .container > .right > .account {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header > .sp-menu > .container > .right > .account > .welcome {
