@@ -58,9 +58,9 @@
         <!-- タブ1 -->
         <div class="tab_content" id="tab01_content">
           <div class="slide">
-            <img src="../assets/img/guid/whatis01.png">
-            <img src="../assets/img/guid/whatis01.png">
-            <img src="../assets/img/guid/whatis01.png">
+            <img src="../assets/img/guid/img_whatis01.jpg">
+            <img src="../assets/img/guid/img_whatis02.jpg">
+            <img src="../assets/img/guid/img_whatis03.jpg">
           </div>
           <p class="text">
             トルモンランドは、インターネット経由（PC・スマートフォン・タブレット端末）でクレーンゲームを楽しむことができるサービスです。ゲームセンター等に設置されている本物のクレーンゲーム機をリアルタイムに遠隔操作して景品を獲得することが可能です。獲得した景品は全国どこへでも送料無料(※)でお届けします。<br><br>※毎週火曜日にSMS承認済みの有効なアカウントに１週間有効の無料配送チケット１回分が配布されます。<br>詳しくは<a
@@ -99,9 +99,10 @@
         <!-- タブ3 -->
         <div class="tab_content third" id="tab03_content">
           <div class="slide">
-            <img src="../assets/img/guid/howto01.png">
-            <img src="../assets/img/guid/howto01.png">
-            <img src="../assets/img/guid/howto01.png">
+            <img src="../assets/img/guid/img_guide01.jpg">
+            <img src="../assets/img/guid/img_guide02.jpg">
+            <img src="../assets/img/guid/img_guide03.jpg">
+            <img src="../assets/img/guid/img_guide04.jpg">
           </div>
 
           <p class="text mb">
