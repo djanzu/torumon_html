@@ -33,11 +33,16 @@
 
     <section class="section-content">
       <div class="container">
-        <h1 class="title">新規会員登録</h1>
+        <h1 class="title is-tab">新規会員登録</h1>
+        <h1 class="title is-xs">
+          <a href="/login/" class="link">
+            <img src="../assets/img/icon_arrow.svg" alt="戻る" class="icon">
+            新規会員登録</a>
+        </h1>
 
         <form action="" class="form">
           <div class="input-container">
-            <ul class="input-list">
+            <ul class="input-list is-tab">
               <li class="input-area flex">
                 <p class="label">ニックネーム</p>
                 <input type="text" class="input name" name="name" value="">
@@ -62,7 +67,29 @@
                   <p class="text">入力されたパスワードが一致しません</p>
                 </li>
             </ul>
-            <div class="privacy-check flex">
+
+            <!-- スマホ用インプット -->
+            <ul class="input-list is-xs">
+              <li class="input-area flex">
+                <p class="label">ニックネーム</p>
+                <input type="text" class="input name" name="name" value="" placeholder="10文字まで">
+              </li>
+              <li class="error">
+                  <p class="text">10文字以内で入力してください</p>
+                </li>
+              <li class="input-area flex">
+                <p class="label">パスワード</p>
+                <input type="text" class="input password" name="password" value="" placeholder="半角英数字10桁まで">
+              </li>
+              <li class="input-area flex">
+                <input type="text" class="input password-confirm" name="password-confirm" value="" placeholder="確認用">
+              </li>
+              <li class="error">
+                <p class="text">半角英数字で入力してください</p>
+                  <p class="text">入力されたパスワードが一致しません</p>
+                </li>
+            </ul>
+            <div class="privacy-check flex is-tab">
               <input type="checkbox" class="checkbox" name="privacy-agreement" value="">
               <p class="text"><a href="" class="link">利用䂓約</a>と<a href="/privacy/" class="link">プライバシーポリシー</a>に同意する</p>
             </div>

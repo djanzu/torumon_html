@@ -11,13 +11,45 @@ color: $color-font-white;
 /*
 ブレイクポイントに関して記述しているファイル
  */
+@media screen and (max-width: 768px) {
+  .header,
+  .footer {
+    display: none;
+  }
+}
+
 .signup-pre-page {
   padding-top: 100px;
   padding-bottom: 473px;
 }
 
+@media screen and (max-width: 768px) {
+  .signup-pre-page {
+    padding-top: 0;
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signup-pre-page > .section-mv {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signup-pre-page > .section-mv > .container > .img {
+    width: 100%;
+  }
+}
+
 .signup-pre-page > .section-content {
   padding: 0 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-pre-page > .section-content {
+    padding: 0;
+  }
 }
 
 .signup-pre-page > .section-content > .container {
@@ -27,6 +59,12 @@ color: $color-font-white;
   max-width: 700px;
   margin: 0 auto;
   padding: 14px 14px 66px;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-pre-page > .section-content > .container {
+    border: 0;
+  }
 }
 
 .signup-pre-page > .section-content > .container > .title {
@@ -39,7 +77,64 @@ color: $color-font-white;
   margin-bottom: 15px;
 }
 
+@media screen and (max-width: 768px) {
+  .signup-pre-page > .section-content > .container > .title {
+    border-bottom: 0;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
 .signup-pre-page > .section-content > .container > .text {
   font-size: 13px;
   line-height: 19px;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-pre-page > .section-content > .container > .text {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signup-pre-page > .section-content > .container > .text > .red {
+    color: #E60012;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signup-pre-page > .section-content > .container > .button {
+    border: 3px solid #000000;
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 15px 65px;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+  }
+  .signup-pre-page > .section-content > .container > .button:hover {
+    opacity: 0.5;
+  }
+}
+
+.signup-pre-page > .section-content > .container > .back {
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-pre-page > .section-content > .container > .back > .link {
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: underline;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .signup-pre-page > .section-content > .container > .back > .link:hover {
+    opacity: 0.5;
+  }
 }

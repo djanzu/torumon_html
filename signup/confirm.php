@@ -33,7 +33,13 @@
 
     <section class="section-content">
       <div class="container">
-        <h1 class="title">新規会員登録>確認</h1>
+        <h1 class="title is-tab">新規会員登録>確認</h1>
+
+        <h1 class="title is-xs">
+          <a href="/signup/confirm.php" class="link">
+            <img src="../assets/img/icon_arrow.svg" alt="" class="icon">
+            確認</a>
+        </h1>
 
         <form action="" class="form">
           <div class="input-container">
@@ -48,7 +54,7 @@
               </li>
               <li class="input-area flex">
                 <p class="label">パスワード(確認用)</p>
-                <input type="text" class="input password" name="password-confirm" value="●●●●●●●●●●●（非表示)" readonly>
+                <input type="text" class="input password" name="password-confirm" value="●●●●●●●●●●●" readonly>
               </li>
             </ul>
           </div>

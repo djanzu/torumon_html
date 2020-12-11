@@ -33,17 +33,32 @@
 
     <section class="section-content">
       <div class="container">
-        <h1 class="title">新規会員登録>完了</h1>
-        <p class="text">新規会員登録が完了しました。<br class="is-pc">ご登録された情報はマイページにてご確認いただけます。<br class="is-pc">オンラインクレーンゲーム トルもんランドをぜひお楽しみください！</p>
+        <h1 class="title is-tab">新規会員登録>完了</h1>
+
+        <h1 class="title is-xs">
+          <a href="/login/" class="link">
+            <img src="../assets/img/icon_arrow.svg" alt="戻る" class="icon">
+            完了</a>
+        </h1>
+
+        <p class="text">新規会員登録が完了しました。<br>ご登録された情報はマイページにてご確認いただけます。<br>オンラインクレーンゲーム トルもんランドを<br class="is-sp">ぜひお楽しみください！</p>
+        
+        <img src="../assets/img/signup/torumon.png" alt="" class="img is-xs">
         <ul class="buttons flex">
-          <li class="button top">
+          <li class="button top is-tab">
             <a href="" class="link">
               <img src="../assets/img/signup/button_list.svg" alt="景品一覧を見る" class="img">
             </a>
           </li>
-          <li class="button mypage">
+          <li class="button mypage is-tab">
             <a href="" class="link">
               <img src="../assets/img/signup/button_mypage.svg" alt="マイページへ" class="img">
+            </a>
+          </li>
+
+          <li class="button is-xs">
+            <a href="" class="link">
+             景品一覧を見る
             </a>
           </li>
         </ul>

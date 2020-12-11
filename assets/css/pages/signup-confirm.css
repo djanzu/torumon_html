@@ -11,13 +11,33 @@ color: $color-font-white;
 /*
 ブレイクポイントに関して記述しているファイル
  */
+@media screen and (max-width: 768px) {
+  .header,
+  .footer {
+    display: none;
+  }
+}
+
 .signup-confirm-page {
   padding-top: 100px;
   padding-bottom: 473px;
 }
 
+@media screen and (max-width: 768px) {
+  .signup-confirm-page {
+    padding-top: 0;
+    padding-bottom: 73px;
+  }
+}
+
 .signup-confirm-page > .section-content {
   padding: 0 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-confirm-page > .section-content {
+    padding: 0;
+  }
 }
 
 .signup-confirm-page > .section-content > .container {
@@ -27,6 +47,13 @@ color: $color-font-white;
   max-width: 700px;
   margin: 0 auto;
   padding: 14px 14px 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-confirm-page > .section-content > .container {
+    border: 0;
+    padding: 0;
+  }
 }
 
 .signup-confirm-page > .section-content > .container > .title {
@@ -39,12 +66,48 @@ color: $color-font-white;
   margin-bottom: 35px;
 }
 
+@media screen and (max-width: 768px) {
+  .signup-confirm-page > .section-content > .container > .title {
+    position: relative;
+    background-color: #ff66cc;
+    padding: 10px 0 8px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signup-confirm-page > .section-content > .container > .title > .link {
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signup-confirm-page > .section-content > .container > .title > .link > .icon {
+    position: absolute;
+    top: 50%;
+    left: 22px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 9px;
+  }
+}
+
 .signup-confirm-page > .section-content > .container > .form > .input-container {
   border: 1px solid #BFBFBF;
   max-width: 508px;
   margin: 0 auto;
   margin-bottom: 20px;
   padding: 18px 28px 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-confirm-page > .section-content > .container > .form > .input-container {
+    border: none;
+    padding: 20px;
+  }
 }
 
 .signup-confirm-page > .section-content > .container > .form > .input-container > .input-list > .input-area {
@@ -64,6 +127,16 @@ color: $color-font-white;
   margin-right: 43px;
 }
 
+@media screen and (max-width: 768px) {
+  .signup-confirm-page > .section-content > .container > .form > .input-container > .input-list > .input-area > .label {
+    min-width: 113px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 22px;
+  }
+}
+
 .signup-confirm-page > .section-content > .container > .form > .input-container > .input-list > .input-area > .input {
   border: none;
   border-radius: none;
@@ -74,6 +147,12 @@ color: $color-font-white;
   font-size: 11px;
   padding: 5px 8px;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-confirm-page > .section-content > .container > .form > .input-container > .input-list > .input-area > .input {
+    font-size: 13px;
+  }
 }
 
 .signup-confirm-page > .section-content > .container > .form > .input-container > .input-list > .input-area > .notice {
@@ -119,6 +198,13 @@ color: $color-font-white;
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .signup-confirm-page > .section-content > .container > .form > .button {
+    display: block;
+    margin-top: 200px;
+  }
+}
+
 .signup-confirm-page > .section-content > .container > .form > .button > .link {
   border: 0;
   border-radius: 3px;
@@ -134,14 +220,40 @@ color: $color-font-white;
   transition: all 0.3s;
 }
 
+@media screen and (max-width: 768px) {
+  .signup-confirm-page > .section-content > .container > .form > .button > .link {
+    display: block;
+    border: 3px solid #000000;
+    border-radius: 50px;
+    width: 236px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 20px;
+    padding: 10px 75px;
+    margin: 0 auto;
+  }
+}
+
 .signup-confirm-page > .section-content > .container > .form > .button > .link.back {
   background-color: #666666;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-confirm-page > .section-content > .container > .form > .button > .link.back {
+    margin-bottom: 24px;
+  }
 }
 
 .signup-confirm-page > .section-content > .container > .form > .button > .link.back > a {
   color: #ffffff;
   font-size: 15px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-confirm-page > .section-content > .container > .form > .button > .link.back > a {
+    font-size: 20px;
+  }
 }
 
 .signup-confirm-page > .section-content > .container > .form > .button > .link.send {
