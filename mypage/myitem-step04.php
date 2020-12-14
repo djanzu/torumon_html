@@ -27,7 +27,7 @@
 <body><?php include(dirname(__FILE__).'/../header.php');?>
   <main class="myitem-step04-page">
     <div class="container  flex">
-      <section class="sidebar">
+      <section class="sidebar is-tab">
         <div class="container">
           <ul class="pages">
             <li class="page"><a href="/mypage/index.php" class="link flex"><img
@@ -55,11 +55,12 @@
       </section>
       <section class="section-content">
         <div class="container">
-          <h1 class="title">景品発送＞最終確認</h1>
+          <h1 class="title is-tab">景品発送＞最終確認</h1>
+          <h1 class="title is-xs">最終確認</h1>
           <form action="" class="form">
             <p class="box-title">発送景品</p>
             <table class="table">
-              <tr class="cell">
+              <tr class="cell is-tab">
                 <th class="label number">No.</th>
                 <th class="label item">景品</th>
               </tr>
@@ -108,14 +109,14 @@
             </table>
 
             <div class="buttons flex">
+            <button class="button next" type="submit">
+                <a href="/mypage/myitem-step01.php" class="link">
+                  <img src="../assets/img/mypage/button_shippingfix.svg" alt="発送依頼する">
+                </a>
+              </button>
               <button class="button back" type="button" onclick="history.back()">
                 <a href="index.php" class="link">
                   戻る
-                </a>
-              </button>
-              <button class="button next" type="submit">
-                <a href="/mypage/myitem-step01.php" class="link">
-                  <img src="../assets/img/mypage/button_shippingfix.svg" alt="発送依頼する">
                 </a>
               </button>
             </div>

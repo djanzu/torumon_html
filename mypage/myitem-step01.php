@@ -34,7 +34,7 @@
 
   <main class="myitem-page">
     <div class="container  flex">
-      <section class="sidebar">
+      <section class="sidebar is-tab">
         <div class="container">
           <ul class="pages">
             <li class="page">
@@ -52,7 +52,7 @@
             </li>
 
             <li class="page">
-              <a href="mypage/myitem.php" class="link flex active">
+              <a href="/mypage/myitem-step01.php" class="link flex active">
                 <img src="../assets/img/mypage/icon_myitem.svg" alt="" class="icon">
                 <p class="text">獲得した景品&景品発送</p>
               </a>
@@ -77,10 +77,11 @@
 
       <section class="section-content">
         <div class="container">
-          <h1 class="title">獲得した景品&景品発送</h1>
+          <h1 class="title is-tab">獲得した景品&景品発送</h1>
+          <h1 class="title is-xs">未発送景品</h1>
           <form action="" class="form">
             <p class="box-title">景品一覧</p>
-            <table class="table">
+            <table class="table is-tab">
               <tr class="cell">
                 <th class="label check"></th>
                 <th class="label number">No.</th>
@@ -157,6 +158,75 @@
                 </td>
                 <td class="data status">
                   <p class="label onshipping">発送済み</p>
+                </td>
+              </tr>
+            </table>
+
+            <!-- スマホ用景品一覧 -->
+            <table class="table is-xs">
+              <tr class="cell">
+                <th class="label check"></th>
+                <th class="label number">No.</th>
+                <th class="label item">獲得景品</th>
+              </tr>
+              <tr class="cell">
+                <td class="data check">
+                  <input type="checkbox" class="checkbox">
+                </td>
+                <td class="data number">
+                  <p class="text">1</p>
+                </td>
+                <td class="data item flex">
+                  <img src="../assets/img/mypage/thumbnail_item.png" alt="景品サムネイル" class="thumbnail">
+                  <div class="text">
+                    <p class="title">トルモンぬいぐるみ B のっかりトルモン　-トレモンとゆかいな仲間たちシリーズ-</p>
+                    <p class="date">獲得日時 ： 2020-08-31 16:19:18</p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="cell">
+                <td class="data check">
+                <input type="checkbox" class="checkbox">
+                </td>
+                <td class="data number">
+                  <p class="text">2</p>
+                </td>
+                <td class="data item flex">
+                  <img src="../assets/img/mypage/thumbnail_item.png" alt="景品サムネイル" class="thumbnail">
+                  <div class="text">
+                    <p class="title">トルモンぬいぐるみ B のっかりトルモン　-トレモンとゆかいな仲間たちシリーズ-</p>
+                    <p class="date">獲得日時 ： 2020-08-31 16:19:18</p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="cell">
+                <td class="data check">
+                <input type="checkbox" class="checkbox">
+                </td>
+                <td class="data number">
+                  <p class="text">3</p>
+                </td>
+                <td class="data item flex">
+                  <img src="../assets/img/mypage/thumbnail_item.png" alt="景品サムネイル" class="thumbnail">
+                  <div class="text">
+                    <p class="title">トルモンぬいぐるみ B のっかりトルモン　-トレモンとゆかいな仲間たちシリーズ-</p>
+                    <p class="date">獲得日時 ： 2020-08-31 16:19:18</p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="cell">
+                <td class="data check">
+                <input type="checkbox" class="checkbox">
+                </td>
+                <td class="data number">
+                  <p class="text">3</p>
+                </td>
+                <td class="data item flex">
+                  <img src="../assets/img/mypage/thumbnail_item.png" alt="景品サムネイル" class="thumbnail">
+                  <div class="text">
+                    <p class="title">トルモンぬいぐるみ B のっかりトルモン　-トレモンとゆかいな仲間たちシリーズ-</p>
+                    <p class="date">獲得日時 ： 2020-08-31 16:19:18</p>
+                  </div>
                 </td>
               </tr>
             </table>

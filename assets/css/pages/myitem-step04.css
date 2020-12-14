@@ -16,11 +16,23 @@ color: $color-font-white;
   padding-bottom: 78px;
 }
 
+@media screen and (max-width: 768px) {
+  .myitem-step04-page {
+    padding-top: 70px;
+  }
+}
+
 .myitem-step04-page > .container {
   max-width: 912px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-step04-page > .container {
+    padding: 0 13px;
+  }
 }
 
 .myitem-step04-page > .container > .sidebar {
@@ -88,6 +100,12 @@ color: $color-font-white;
   padding: 14px 14px 27px;
 }
 
+@media screen and (max-width: 768px) {
+  .myitem-step04-page > .container > .section-content > .container {
+    padding: 6px 14px 0;
+  }
+}
+
 .myitem-step04-page > .container > .section-content > .container > .title {
   border-bottom: 3px solid #ff66cc;
   font-size: 23px;
@@ -96,6 +114,15 @@ color: $color-font-white;
   line-height: 19px;
   padding-bottom: 11px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-step04-page > .container > .section-content > .container > .title {
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 13px;
+  }
 }
 
 .myitem-step04-page > .container > .section-content > .container > .form {
@@ -142,12 +169,41 @@ color: $color-font-white;
   border-right: 1px solid #BFBFBF;
 }
 
+@media screen and (max-width: 768px) {
+  .myitem-step04-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.number {
+    padding: 9px 12px;
+  }
+}
+
 .myitem-step04-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.item {
   padding: 6px;
 }
 
+@media screen and (max-width: 768px) {
+  .myitem-step04-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.item {
+    padding: 5px 7px;
+  }
+}
+
+.myitem-step04-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .thumbnail {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-step04-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .title {
+    font-size: 10px;
+  }
+}
+
 .myitem-step04-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .text {
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-step04-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .text {
+    font-size: 10px;
+  }
 }
 
 .myitem-step04-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .input,
@@ -162,6 +218,13 @@ color: $color-font-white;
   padding: 5px 10px;
 }
 
+@media screen and (max-width: 768px) {
+  .myitem-step04-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .input,
+  .myitem-step04-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .select {
+    font-size: 10px;
+  }
+}
+
 .myitem-step04-page > .container > .section-content > .container > .form > .buttons {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -169,7 +232,17 @@ color: $color-font-white;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-step04-page > .container > .section-content > .container > .form > .buttons {
+    display: block;
+  }
 }
 
 .myitem-step04-page > .container > .section-content > .container > .form > .buttons > .button {
@@ -179,8 +252,22 @@ color: $color-font-white;
   transition: all 0.3s;
 }
 
+@media screen and (max-width: 768px) {
+  .myitem-step04-page > .container > .section-content > .container > .form > .buttons > .button {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 .myitem-step04-page > .container > .section-content > .container > .form > .buttons > .button.back {
   margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-step04-page > .container > .section-content > .container > .form > .buttons > .button.back {
+    margin: 0 auto;
+    margin-top: 25px;
+  }
 }
 
 .myitem-step04-page > .container > .section-content > .container > .form > .buttons > .button.back > .link {

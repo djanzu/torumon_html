@@ -26,7 +26,7 @@
 <body><?php include(dirname(__FILE__).'/../header.php');?>
   <main class="myitem-thanks-page">
     <div class="container  flex">
-      <section class="sidebar">
+      <section class="sidebar is-tab  ">
         <div class="container">
           <ul class="pages">
             <li class="page"><a href="/mypage/index.php" class="link flex"><img
@@ -54,9 +54,10 @@
       </section>
       <section class="section-content">
         <div class="container">
-          <h1 class="title">景品発送＞配送依頼完了</h1>
+          <h1 class="title is-tab">景品発送＞配送依頼完了</h1>
+          <h1 class="title is-xs">配送依頼完了</h1>
           <p class="text">
-          送信完了<br>配送を受け付けました。<br>この度は弊社サービスをご利用いただきまして、誠にありがとうございます。<br>今後とも弊社サービスをご愛顧くださいますよう、お願い申し上げます。
+          送信完了<br>配送を受け付けました。<br class="is-tab">この度は弊社サービスをご利用いただきまして、誠にありがとうございます。<br class="is-tab">今後とも弊社サービスをご愛顧くださいますよう、お願い申し上げます。
           </p>
           <div class="button">
             <a href="/" class="link">

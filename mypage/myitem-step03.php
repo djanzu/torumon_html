@@ -28,7 +28,7 @@
 <body><?php include(dirname(__FILE__).'/../header.php');?>
   <main class="myitem-step03-page">
     <div class="container  flex">
-      <section class="sidebar">
+      <section class="sidebar is-tab">
         <div class="container">
           <ul class="pages">
             <li class="page"><a href="/mypage/index.php" class="link flex"><img
@@ -56,7 +56,8 @@
       </section>
       <section class="section-content">
         <div class="container">
-          <h1 class="title">景品発送＞送付先確認</h1>
+          <h1 class="title is-tab">景品発送＞送付先確認</h1>
+          <h1 class="title is-xs">送付先確認</h1>
           <form action="" class="form">
             <p class="box-title">景品一覧</p>
             <table class="table">
@@ -72,15 +73,15 @@
                 </td>
               </tr>
               <tr class="cell">
-                <th class="label">支払い方法</th>
-                <td class="data flex">
-                  <input type="radio" class="radio" name="radio">無料配送チケットを使用する
-                  <input type="radio" class="radio point" name="radio">ポイント500ptを使用する
+                <th class="label pay">支払い方法</th>
+                <td class="data pay flex">
+                <label class="flex"><input type="radio" class="radio" id="pay" name="radio"><p class="label">無料配送チケットを使用する</p></label>
+                <label class="flex point"><input type="radio" class="radio" id="pay" name="radio"><p class="label">ポイント500pを使用する</p></label>
                 </td>
               </tr>
               <tr class="cell">
                 <th class="label">配送時間</th>
-                <td class="data flex">
+                <td class="data time flex">
                 <select class="select" id="time-select" name="time" value="">
                     <option value="12:00~14:00">12:00~14:00</option>
                     <option value="14:00~16:00">14:00~16:00</option>
@@ -93,14 +94,14 @@
             </table>
 
             <div class="buttons flex">
+            <button class="button next" type="submit">
+                <a href="/mypage/myitem-step04.php" class="link">
+                  <img src="../assets/img/mypage/button_next.svg" alt="次へ">
+                </a>
+              </button>
               <button class="button back" type="button" onclick="history.back()">
                 <a href="index.php" class="link">
                   戻る
-                </a>
-              </button>
-              <button class="button next" type="submit">
-                <a href="/mypage/myitem-step01.php" class="link">
-                  <img src="../assets/img/mypage/button_next.svg" alt="次へ">
                 </a>
               </button>
             </div>

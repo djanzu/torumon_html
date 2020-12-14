@@ -16,11 +16,23 @@ color: $color-font-white;
   padding-bottom: 78px;
 }
 
+@media screen and (max-width: 768px) {
+  .myitem-thanks-page {
+    padding-top: 70px;
+  }
+}
+
 .myitem-thanks-page > .container {
   max-width: 912px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-thanks-page > .container {
+    padding: 0 13px;
+  }
 }
 
 .myitem-thanks-page > .container > .sidebar {
@@ -88,6 +100,12 @@ color: $color-font-white;
   padding: 14px 14px 27px;
 }
 
+@media screen and (max-width: 768px) {
+  .myitem-thanks-page > .container > .section-content > .container {
+    padding: 6px 14px;
+  }
+}
+
 .myitem-thanks-page > .container > .section-content > .container > .title {
   border-bottom: 3px solid #ff66cc;
   font-size: 23px;
@@ -98,10 +116,25 @@ color: $color-font-white;
   margin-bottom: 16px;
 }
 
+@media screen and (max-width: 768px) {
+  .myitem-thanks-page > .container > .section-content > .container > .title {
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 13px;
+  }
+}
+
 .myitem-thanks-page > .container > .section-content > .container > .text {
   font-size: 13px;
   text-align: center;
   margin-bottom: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-thanks-page > .container > .section-content > .container > .text {
+    text-align: left;
+  }
 }
 
 .myitem-thanks-page > .container > .section-content > .container > .button {

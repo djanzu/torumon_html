@@ -16,11 +16,23 @@ color: $color-font-white;
   padding-bottom: 78px;
 }
 
+@media screen and (max-width: 768px) {
+  .myitem-page {
+    padding-top: 70px;
+  }
+}
+
 .myitem-page > .container {
   max-width: 912px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-page > .container {
+    padding: 0 13px;
+  }
 }
 
 .myitem-page > .container > .sidebar {
@@ -88,6 +100,12 @@ color: $color-font-white;
   padding: 14px 14px 27px;
 }
 
+@media screen and (max-width: 768px) {
+  .myitem-page > .container > .section-content > .container {
+    padding: 6px 14px 0;
+  }
+}
+
 .myitem-page > .container > .section-content > .container > .title {
   border-bottom: 3px solid #ff66cc;
   font-size: 23px;
@@ -96,6 +114,15 @@ color: $color-font-white;
   line-height: 19px;
   padding-bottom: 11px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-page > .container > .section-content > .container > .title {
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 13px;
+  }
 }
 
 .myitem-page > .container > .section-content > .container > .form {
@@ -109,11 +136,32 @@ color: $color-font-white;
   margin-bottom: 8px;
 }
 
+@media screen and (max-width: 768px) {
+  .myitem-page > .container > .section-content > .container > .form > .box-title {
+    font-size: 10px;
+  }
+}
+
 .myitem-page > .container > .section-content > .container > .form > .table {
   border: 1px solid #BFBFBF;
   max-width: 700px;
   width: 100%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-page > .container > .section-content > .container > .form > .table {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-page > .container > .section-content > .container > .form > .table > tbody {
+    border: 1px solid #BFBFBF;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell {
@@ -132,6 +180,12 @@ color: $color-font-white;
   width: 39px;
 }
 
+@media screen and (max-width: 768px) {
+  .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label.check, .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label.number {
+    width: 10%;
+  }
+}
+
 .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label.item {
   width: 445px;
 }
@@ -143,6 +197,12 @@ color: $color-font-white;
 .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label.radio {
   width: 80px;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label.radio {
+    width: 10%;
+  }
 }
 
 .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label.name, .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label.address {
@@ -164,6 +224,13 @@ color: $color-font-white;
 .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.item {
   width: 445px;
   padding: 6px;
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.item {
+    border: none;
+    width: 100%;
+  }
 }
 
 .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.status {
@@ -188,9 +255,17 @@ color: $color-font-white;
 }
 
 .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .thumbnail {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
   max-width: 58px;
   width: 100%;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .thumbnail {
+    margin-right: 4px;
+  }
 }
 
 .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .text,
@@ -198,10 +273,23 @@ color: $color-font-white;
   font-size: 11px;
 }
 
+@media screen and (max-width: 768px) {
+  .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .text,
+  .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .date {
+    font-size: 10px;
+  }
+}
+
 .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .text > .title {
   font-size: 13px;
   font-weight: bold;
   margin-bottom: 11px;
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .text > .title {
+    font-size: 10px;
+  }
 }
 
 .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .status-text {
