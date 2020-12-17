@@ -292,6 +292,35 @@ color: $color-font-white;
   }
 }
 
+@media screen and (max-width: 768px) {
+  .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .text > .label {
+    color: white;
+    font-weight: bold;
+    max-width: 70px;
+    border-radius: 3px;
+    padding: 0 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .text > .label.unshipped {
+    background-color: #F24949;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .text > .label.prepared {
+    background-color: #FF9100;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .text > .label.onshipping {
+    background-color: #B2B2B2;
+  }
+}
+
 .myitem-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .status-text {
   -webkit-writing-mode: vertical-lr;
   -ms-writing-mode: tb-lr;

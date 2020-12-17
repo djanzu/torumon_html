@@ -181,6 +181,7 @@
                   <div class="text">
                     <p class="title">トルモンぬいぐるみ B のっかりトルモン　-トレモンとゆかいな仲間たちシリーズ-</p>
                     <p class="date">獲得日時 ： 2020-08-31 16:19:18</p>
+                    <p class="label unshipped">未発送</p>
                   </div>
                 </td>
               </tr>
@@ -196,6 +197,7 @@
                   <div class="text">
                     <p class="title">トルモンぬいぐるみ B のっかりトルモン　-トレモンとゆかいな仲間たちシリーズ-</p>
                     <p class="date">獲得日時 ： 2020-08-31 16:19:18</p>
+                    <p class="label prepared">発送準備中</p>
                   </div>
                 </td>
               </tr>
@@ -211,6 +213,8 @@
                   <div class="text">
                     <p class="title">トルモンぬいぐるみ B のっかりトルモン　-トレモンとゆかいな仲間たちシリーズ-</p>
                     <p class="date">獲得日時 ： 2020-08-31 16:19:18</p>
+                    <p class="label onshipping">発送済み</p>
+                    
                   </div>
                 </td>
               </tr>
@@ -226,6 +230,7 @@
                   <div class="text">
                     <p class="title">トルモンぬいぐるみ B のっかりトルモン　-トレモンとゆかいな仲間たちシリーズ-</p>
                     <p class="date">獲得日時 ： 2020-08-31 16:19:18</p>
+                    <p class="label onshipping">発送済み</p>
                   </div>
                 </td>
               </tr>
