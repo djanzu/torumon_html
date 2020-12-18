@@ -33,7 +33,7 @@
 
   <main class="mypage-edit-page">
     <div class="container  flex">
-      <section class="sidebar">
+      <section class="sidebar is-tab">
         <div class="container">
           <ul class="pages">
             <li class="page">
@@ -80,7 +80,7 @@
             <h1 class="title">会員登録情報</h1>
             <table class="table">
               <tr class="cell">
-                <th class="label">ニックネーム</th>
+                <th class="label">ニックネーム<span class="is-xs">(最大10文字)</span></th>
                 <td class="data flex">
                   <input class="input" type="text" name="name" value="">
                   <button class="button" type="button">保存する</button>
@@ -104,7 +104,7 @@
                 </td>
               </tr>
               <tr class="cell">
-                <th class="label">メール配信サービス</th>
+                <th class="label">メール配信<span class="block">サービス</span></th>
                 <td class="data">
                   <input class="radio" id="yes" type="radio" name="mail-magazine" value="yes">希望する
                   <input class="radio" id="no" type="radio" name="mail-magazine" value="no" checked="checked">希望しない
@@ -120,7 +120,7 @@
           </form>
 
           <form action="" class="form">
-            <h2 class="title">基本情報</h2>
+            <h2 class="title basic-info">基本情報</h2>
             <button class="button-basechange" type="submit">保存する</button>
             <table class="table">
               <tr class="cell">
@@ -144,16 +144,16 @@
               </tr>
               <tr class="cell">
                 <th class="label">性別</th>
-                <td class="data">
-                  <input class="radio" id="man" type="radio" name="gender" value="man" checked="checked">男性
-                  <input class="radio" id="woman" type="radio" name="gender" value="woman">女性
+                <td class="data gender">
+                <label class="flex"><input type="radio" class="radio" id="man" name="gender" value="man" checked="checked"><p class="label">男性</p></label>
+                <label class="flex"><input type="radio" class="radio" id="woman" name="gender" value="woman"><p class="label">女性</p></label>
 
                 </td>
               </tr>
             </table>
           </form>
 
-          <form action="" class="form">
+          <form action="" class="form is-tab">
             <h2 class="title">お届け先住所録</h2>
             <p class="text">基本情報の場所とは別の場所におくる際にご登録ください。</p>
             <table class="table">

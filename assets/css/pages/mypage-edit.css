@@ -16,11 +16,23 @@ color: $color-font-white;
   padding-bottom: 78px;
 }
 
+@media screen and (max-width: 768px) {
+  .mypage-edit-page {
+    padding-top: 70px;
+  }
+}
+
 .mypage-edit-page > .container {
   max-width: 912px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-edit-page > .container {
+    padding: 0 13px;
+  }
 }
 
 .mypage-edit-page > .container > .sidebar {
@@ -88,6 +100,12 @@ color: $color-font-white;
   padding: 14px 14px 38px;
 }
 
+@media screen and (max-width: 768px) {
+  .mypage-edit-page > .container > .section-content > .container {
+    padding: 6px 14px 0;
+  }
+}
+
 .mypage-edit-page > .container > .section-content > .container > .form {
   position: relative;
 }
@@ -100,6 +118,22 @@ color: $color-font-white;
   line-height: 19px;
   padding-bottom: 11px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-edit-page > .container > .section-content > .container > .form > .title {
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-edit-page > .container > .section-content > .container > .form > .title.basic-info {
+    border-top: 3px solid #ff66cc;
+    padding-top: 5px;
+  }
 }
 
 .mypage-edit-page > .container > .section-content > .container > .form > .button-basechange {
@@ -120,6 +154,15 @@ color: $color-font-white;
   padding: 6px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-edit-page > .container > .section-content > .container > .form > .button-basechange {
+    top: 105%;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+  }
 }
 
 .mypage-edit-page > .container > .section-content > .container > .form > .table {
@@ -143,12 +186,30 @@ color: $color-font-white;
   padding: 13px 12px 12px;
 }
 
+@media screen and (max-width: 768px) {
+  .mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label {
+    width: 100px;
+    font-size: 10px;
+    padding: 13px 6px 12px;
+  }
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .label > .block {
+  display: inline-block;
+}
+
 .mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
   font-size: 11px;
   padding: 8px 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data {
+    padding: 8px 6px;
+  }
 }
 
 .mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .input,
@@ -158,6 +219,14 @@ color: $color-font-white;
   width: 231px;
   font-size: 11px;
   padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .input,
+  .mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .select {
+    width: 150px;
+    margin-right: 9px;
+  }
 }
 
 .mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .input {
@@ -187,12 +256,31 @@ color: $color-font-white;
   transition: all 0.3s;
 }
 
+@media screen and (max-width: 768px) {
+  .mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .button {
+    min-width: 52px;
+  }
+}
+
 .mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .button:hover {
   opacity: 0.5;
 }
 
 .mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data > .button.delete {
   background-color: #707070;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.gender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell > .data.gender > .flex {
+  margin-right: 24px;
 }
 
 .mypage-edit-page > .container > .section-content > .container > .form > .table > tbody > .cell.add-address > .label.address {
