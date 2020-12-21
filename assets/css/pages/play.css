@@ -210,6 +210,8 @@ color: $color-font-white;
 .play-page > .container > .sidebar > .container > .fee > .label,
 .play-page > .container > .sidebar > .container > .balance > .label {
   font-size: 10px;
+  -ms-flex-item-align: center;
+  align-self: center;
 }
 
 .play-page > .container > .sidebar > .container > .reservation > .data {
@@ -231,11 +233,15 @@ color: $color-font-white;
   font-weight: bold;
   text-align: right;
   margin-right: 2px;
+  -ms-flex-item-align: center;
+  align-self: center;
 }
 
 .play-page > .container > .sidebar > .container > .fee > .icon,
 .play-page > .container > .sidebar > .container > .balance > .icon {
   width: 12px;
+  -ms-flex-item-align: center;
+  align-self: center;
 }
 
 .play-page > .container > .sidebar > .container > .reservation,
