@@ -28,6 +28,13 @@ color: $color-font-white;
   padding-bottom: 78px;
 }
 
+@media screen and (max-width: 768px) {
+  .mypage-index-page {
+    padding-top: 70px;
+    padding-bottom: 48px;
+  }
+}
+
 .mypage-index-page > .container {
   max-width: 912px;
   width: 100%;
@@ -35,10 +42,92 @@ color: $color-font-white;
   padding: 0 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container {
+    max-width: 700px;
+    display: block;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .title {
+    background-color: #ff66cc;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .account {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #E5E5E5;
+    padding: 8px 12px 7px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .account > .name {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .account > .name > .strong {
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .account > .status {
+    background-color: #ffffff;
+    border: 1px solid #DEDEDE;
+    border-radius: 100px;
+    -webkit-box-shadow: 3px 3px 4px #B3B3B3 inset;
+    box-shadow: 3px 3px 4px #B3B3B3 inset;
+    max-width: 80px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 130%;
+    padding: 6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .account > .data {
+    color: #4D4D4D;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+.mypage-index-page > .container > .account > .data > .number {
+  color: #000000;
+  margin-left: 15px;
+}
+
 .mypage-index-page > .container > .sidebar {
   max-width: 192px;
   width: 100%;
   margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .sidebar {
+    max-width: 100%;
+  }
 }
 
 .mypage-index-page > .container > .sidebar > .container {
@@ -49,8 +138,22 @@ color: $color-font-white;
   padding: 0 11px;
 }
 
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .sidebar > .container {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+  }
+}
+
 .mypage-index-page > .container > .sidebar > .container > .pages > .page {
   border-bottom: 3px solid #ff66cc;
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .sidebar > .container > .pages > .page {
+    position: relative;
+  }
 }
 
 .mypage-index-page > .container > .sidebar > .container > .pages > .page > .link {
@@ -62,9 +165,25 @@ color: $color-font-white;
   padding: 7px 5px;
 }
 
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .sidebar > .container > .pages > .page > .link {
+    position: relative;
+    padding: 7px 10px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+}
+
 .mypage-index-page > .container > .sidebar > .container > .pages > .page > .link > .icon {
   width: 19px;
   margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .sidebar > .container > .pages > .page > .link > .icon {
+    width: 30px;
+    margin-right: 6px;
+  }
 }
 
 .mypage-index-page > .container > .sidebar > .container > .pages > .page > .link > .text {
@@ -75,8 +194,57 @@ color: $color-font-white;
   padding-top: 3px;
 }
 
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .sidebar > .container > .pages > .page > .link > .text {
+    font-size: 15px;
+    min-width: 141px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .sidebar > .container > .pages > .page > .link > .data {
+    color: #000000;
+    font-size: 15px;
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .sidebar > .container > .pages > .page > .link > .data > .number {
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .sidebar > .container > .pages > .page > .link > .buy-icon {
+    width: 30px;
+    margin: 0 0 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .sidebar > .container > .pages > .page > .link > .link-icon {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 12px;
+  }
+}
+
+.mypage-index-page > .container > .sidebar > .container > .pages > .page > .link > .link-icon.before-shipping, .mypage-index-page > .container > .sidebar > .container > .pages > .page > .link > .link-icon.myitem {
+  right: -99px;
+}
+
 .mypage-index-page > .container > .sidebar > .container > .pages > .page > .link:hover {
   opacity: 0.5;
+}
+
+@media screen and (max-width: ) {
+  .mypage-index-page > .container > .sidebar > .container > .pages > .page > .link:hover {
+    background-color: #CCCCCC;
+  }
 }
 
 .mypage-index-page > .container > .sidebar > .container > .pages > .page > .link.active {
@@ -86,6 +254,44 @@ color: $color-font-white;
 
 .mypage-index-page > .container > .sidebar > .container > .pages > .page:last-child {
   border: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .sidebar > .container > .pages > .page:last-child {
+    border-bottom: 3px solid #ff66cc;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .sidebar > .container > .submenu > .container {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 7px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .sidebar > .container > .submenu > .container > .logout > .link {
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mypage-index-page > .container > .sidebar > .container > .submenu > .container > .link > .icon {
+    width: 40px;
+  }
+}
+
+.mypage-index-page > .container > .sidebar > .container > .submenu > .container > .link.twitter {
+  margin: 0 0 0 auto;
+}
+
+.mypage-index-page > .container > .sidebar > .container > .submenu > .container > .link.facebook {
+  margin-left: 23px;
 }
 
 .mypage-index-page > .container > .section-content {

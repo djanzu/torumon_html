@@ -34,9 +34,15 @@
 
   <main class="mypage-index-page">
     <div class="container  flex">
+      <h1 class="title is-xs">マイページ</h1>
+      <div class="account is-xs">
+        <p class="name"><span class="strong">最大10文字入りますよ</span>さん</p>
+        <p class="status pro">最大10文字入りますよ</p>
+        <p class="data">景品獲得数<span class="number">9999</span>個</p>
+      </div>
       <section class="sidebar">
         <div class="container">
-          <ul class="pages">
+          <ul class="pages is-tab">
             <li class="page">
               <a href="/mypage/index.php" class="link flex active">
                 <img src="../assets/img/mypage/icon_top.svg" alt="" class="icon">
@@ -72,13 +78,99 @@
               </a>
             </li>
           </ul>
+
+          <!-- スマホ用マイページメニュー -->
+          <ul class="pages is-xs">
+            <li class="page">
+              <a href="/maypage/point.php" class="link flex">
+                <img src="../assets/img/mypage/icon_point.svg" alt="" class="icon">
+                <p class="text">所持ポイント</p>
+                <p class="data"><span class="number">100,000</span>pt</p>
+                <img src="../assets/img/point_plus.png" alt="ポイント購入" class="buy-icon">
+              </a>
+            </li>
+
+            <li class="page">
+              <a href="" class="link flex">
+                <img src="../assets/img/mypage/icon_ticket.svg" alt="" class="icon">
+                <p class="text">無料配送チケット</p>
+                <p class="data"><span class="number">1</span>枚</p>
+              </a>
+            </li>
+
+            <li class="page">
+              <a href="/maypage/myitem-steo01.php" class="link flex">
+                <img src="../assets/img/mypage/icon_before_shipping.svg" alt="" class="icon">
+                <p class="text">未発送景品</p>
+                <p class="data"><span class="number">99</span>個</p>
+                <img src="../assets/img/icon_arrow_kunoji.svg" alt="ポイント購入" class="link-icon">
+              </a>
+            </li>
+
+            <li class="page">
+              <a href="/maypage/myitem-step01.php" class="link flex">
+                <img src="../assets/img/mypage/icon_myitem_sp.svg" alt="" class="icon">
+                <p class="text">獲得景品一覧</p>
+                <p class="data"><span class="number">99999</span>個</p>
+                <img src="../assets/img/icon_arrow_kunoji.svg" alt="ポイント購入" class="link-icon">
+              </a>
+            </li>
+
+            <li class="page">
+              <a href="/mypage/index-edit.php" class="link flex">
+                <img src="../assets/img/mypage/icon_info.svg" alt="" class="icon">
+                <p class="text">会員情報編集</p>
+                <img src="../assets/img/icon_arrow_kunoji.svg" alt="ポイント購入" class="link-icon">
+              </a>
+            </li>
+
+            <li class="page">
+              <a href="/maypage/index-address.php" class="link flex">
+                <img src="../assets/img/mypage/icon_address.svg" alt="" class="icon">
+                <p class="text">景品配送先編集</p>
+                <img src="../assets/img/icon_arrow_kunoji.svg" alt="ポイント購入" class="link-icon">
+              </a>
+            </li>
+
+            <li class="page">
+              <a href="/maypage/password.php" class="link flex">
+                <img src="../assets/img/mypage/icon_password.svg" alt="" class="icon">
+                <p class="text">パスワード変更</p>
+                <img src="../assets/img/icon_arrow_kunoji.svg" alt="ポイント購入" class="link-icon">
+              </a>
+            </li>
+
+            <li class="page">
+              <a href="/mypage/coupon.php" class="link flex">
+                <img src="../assets/img/mypage/icon_code.svg" alt="" class="icon">
+                <p class="text">各種コード入力</p>
+                <img src="../assets/img/icon_arrow_kunoji.svg" alt="ポイント購入" class="link-icon">
+              </a>
+            </li>
+
+            <li class="page">
+              <a href="/mypage/withdrawal.php" class="link flex">
+                <img src="../assets/img/mypage/icon_withdrawal.svg" alt="" class="icon">
+                <p class="text">退会手続き</p>
+                <img src="../assets/img/icon_arrow_kunoji.svg" alt="ポイント購入" class="link-icon">
+              </a>
+            </li>
+          </ul>
+
+          <div class="submenu is-xs">
+          <div class="container flex">
+            <p class="logout"><a href="" class="link">ログアウト</a></p>
+            <a href="" class="link twitter"><img src="../assets/img/twitter.png" alt="" class="icon"></a>
+            <a href="" class="link facebook"><img src="../assets/img/facebook.png" alt="" class="icon"></a>
+          </div>
+          </div>
         </div>
       </section>
 
-      <section class="section-content">
+      <section class="section-content is-tab">
         <div class="container">
-        <form action="" class="form">
-          <h1 class="title">会員登録情報</h1>
+          <form action="" class="form">
+            <h1 class="title">会員登録情報</h1>
             <table class="table">
               <tr class="cell">
                 <th class="label">ニックネーム</th>
@@ -123,92 +215,94 @@
           </form>
 
           <form action="" class="form">
-          <h2 class="title">基本情報</h2>
+            <h2 class="title">基本情報</h2>
             <button class="button-basechange" type="submit">変更する</button>
-              <table class="table">
-                <tr class="cell">
-                  <th class="label">お名前</th>
-                  <td class="data flex">
-                    <input class="input" type="text" name="name" value="トレもん" readonly>
-                  </td>
-                </tr>
-                <tr class="cell">
-                  <th class="label">住所</th>
-                  <td class="data">
-                    〒<input class="input" type="text" name="zip" value="107-0052" readonly>
-                    <input class="input" type="text" name="zip" value="東京都港区赤坂4-5-19" readonly>
-                  </td>
-                </tr>
-                <tr class="cell">
-                  <th class="label">電話番号</th>
-                  <td class="data">
-                    <input class="input" type="tel" name="tel" value="03-3586-0411" readonly>
-                  </td>
-                </tr>
-                <tr class="cell">
-                  <th class="label">性別</th>
-                  <td class="data">
-                    <input class="radio" id="man" type="radio" name="gender" value="man" checked="checked">男性
-                    <input class="radio" id="woman" type="radio" name="gender" value="woman">女性
-                    <p class="radio-text-gender man">男性</p>
-                    <p class="radio-text-gender woman">女性</p>
-                  </td>
-                </tr>
-              </table>
-            </form>
+            <table class="table">
+              <tr class="cell">
+                <th class="label">お名前</th>
+                <td class="data flex">
+                  <input class="input" type="text" name="name" value="トレもん" readonly>
+                </td>
+              </tr>
+              <tr class="cell">
+                <th class="label">住所</th>
+                <td class="data">
+                  〒<input class="input" type="text" name="zip" value="107-0052" readonly>
+                  <input class="input" type="text" name="zip" value="東京都港区赤坂4-5-19" readonly>
+                </td>
+              </tr>
+              <tr class="cell">
+                <th class="label">電話番号</th>
+                <td class="data">
+                  <input class="input" type="tel" name="tel" value="03-3586-0411" readonly>
+                </td>
+              </tr>
+              <tr class="cell">
+                <th class="label">性別</th>
+                <td class="data">
+                  <input class="radio" id="man" type="radio" name="gender" value="man" checked="checked">男性
+                  <input class="radio" id="woman" type="radio" name="gender" value="woman">女性
+                  <p class="radio-text-gender man">男性</p>
+                  <p class="radio-text-gender woman">女性</p>
+                </td>
+              </tr>
+            </table>
+          </form>
 
-            <form action="" class="form">
+          <form action="" class="form">
             <h2 class="title">お届け先住所録</h2>
-              <p class="text">基本情報の場所とは別の場所におくる際にご登録ください。</p>
-                <table class="table">
-                  <tr class="cell add-address">
-                    <th class="label address">郵便番号 住所</th>
-                    <th class="label name">お名前</th>
-                    <th class="label tel">電話番号</th>
-                    <th class="label gender">性別</th>
-                    <th class="label button">編集</th>
-                  </tr>
-                  <tr class="cell add-address">
-                    <td class="data address">
-                      <span class="zip-icon">〒</span><input class="input zip" type="text" name="zip" value="107-0052" readonly>
-                      <input class="input" type="text" name="zip" value="東京都港区赤坂4-5-19" readonly>
-                    </td>
-                    <td class="data name">
-                      <input class="input" type="tel" name="name" value="トルもん" readonly>
-                    </td>
-                    <td class="data tel">
-                      <input class="input" type="tel" name="tel" value="03-3586-0411" readonly>
-                    </td>
-                    <td class="data gender">
-                      <p class="radio-text-gender man">男性</p>
-                      <p class="radio-text-gender woman">女性</p>
-                    </td>
-                    <td class="data button">
-                      <button class="button delete" type="submit">削除</button>
-                    </td>
-                  </tr>
+            <p class="text">基本情報の場所とは別の場所におくる際にご登録ください。</p>
+            <table class="table">
+              <tr class="cell add-address">
+                <th class="label address">郵便番号 住所</th>
+                <th class="label name">お名前</th>
+                <th class="label tel">電話番号</th>
+                <th class="label gender">性別</th>
+                <th class="label button">編集</th>
+              </tr>
+              <tr class="cell add-address">
+                <td class="data address">
+                  <span class="zip-icon">〒</span><input class="input zip" type="text" name="zip" value="107-0052"
+                    readonly>
+                  <input class="input" type="text" name="zip" value="東京都港区赤坂4-5-19" readonly>
+                </td>
+                <td class="data name">
+                  <input class="input" type="tel" name="name" value="トルもん" readonly>
+                </td>
+                <td class="data tel">
+                  <input class="input" type="tel" name="tel" value="03-3586-0411" readonly>
+                </td>
+                <td class="data gender">
+                  <p class="radio-text-gender man">男性</p>
+                  <p class="radio-text-gender woman">女性</p>
+                </td>
+                <td class="data button">
+                  <button class="button delete" type="submit">削除</button>
+                </td>
+              </tr>
 
-                  <tr class="cell add-address input-area">
-                    <td class="data address">
-                      <span class="zip-icon">〒</span><input class="input zip" type="text" name="zip" placeholder="1234567" value="">
-                      <input class="input" type="text" name="zip" placeholder="都道府県から" value="">
-                    </td>
-                    <td class="data name">
-                      <input class="input" type="tel" name="name" placeholder="フルネームで" value="">
-                    </td>
-                    <td class="data tel">
-                      <input class="input" type="tel" name="tel" placeholder="000-0000-0000" value="">
-                    </td>
-                    <td class="data gender">
-                      <input class="radio" id="man" type="radio" name="gender" value="man" checked="checked">男性
-                      <input class="radio" id="woman" type="radio" name="gender" value="woman">女性
-                    </td>
-                    <td class="data button">
-                      <button class="button" type="submit">追加</button>
-                    </td>
-                  </tr>
-                </table>
-              </form>
+              <tr class="cell add-address input-area">
+                <td class="data address">
+                  <span class="zip-icon">〒</span><input class="input zip" type="text" name="zip" placeholder="1234567"
+                    value="">
+                  <input class="input" type="text" name="zip" placeholder="都道府県から" value="">
+                </td>
+                <td class="data name">
+                  <input class="input" type="tel" name="name" placeholder="フルネームで" value="">
+                </td>
+                <td class="data tel">
+                  <input class="input" type="tel" name="tel" placeholder="000-0000-0000" value="">
+                </td>
+                <td class="data gender">
+                  <input class="radio" id="man" type="radio" name="gender" value="man" checked="checked">男性
+                  <input class="radio" id="woman" type="radio" name="gender" value="woman">女性
+                </td>
+                <td class="data button">
+                  <button class="button" type="submit">追加</button>
+                </td>
+              </tr>
+            </table>
+          </form>
         </div>
 
       </section>
